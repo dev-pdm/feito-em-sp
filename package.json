@@ -1,0 +1,36 @@
+{
+  "name": "feito-em-sp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "autoprefixer": "^9.6.1",
+    "cross-env": "5.1.5",
+    "css-loader": "^3.2.0",
+    "file-loader": "1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "0.4.0",
+    "node-sass": "^4.12.0",
+    "normalize.css": "^8.0.1",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "postcss-cli": "^6.1.3",
+    "sass-loader": "7.0.1",
+    "style-loader": "0.21.0",
+    "webpack": "4.8.1",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.1"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --hot",
+    "build": "cross-env NODE_ENV=production webpack"
+  },
+  "author": "Caique Sousa | Prazeres da Mesa",
+  "license": "ISC"
+}

@@ -1,0 +1,43 @@
+/* 
+[data-anime] {
+    opacity: 0;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+[data-anime=left] {
+    -webkit-transform: translate3d(-100px, 0, 0);
+    transform: translate3d(-100px, 0, 0);
+}
+
+[data-anime=right] {
+    -webkit-transform: translate3d(100px, 0, 0);
+    transform: translate3d(100px, 0, 0);
+}
+
+[data-anime=top] {
+    -webkit-transform: translate3d(0, -100px, 0);
+    transform: translate3d(0, -100px, 0);
+}
+
+[data-anime=bottom] {
+    -webkit-transform: translate3d(0, 100px, 0);
+    transform: translate3d(0, 100px, 0);
+}
+
+[data-anime=front] {
+    -webkit-transform: translate3d(0, 0, 150px);
+    transform: translate3d(0, 0, 150px);
+}
+
+[data-anime=back] {
+    -webkit-transform: translate3d(0, 0, -150px);
+    transform: translate3d(0, 0, -150px);
+}
+
+[data-anime].animate {
+    opacity: 1;
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    transform: translate3d(0px, 0px, 0px);
+} */

@@ -1,0 +1,195 @@
+ /* Dispositivos extra small (telefones em modo retrato, com menos de 576px) */
+@media screen and (max-width: 575.98px){
+    .btn-regioes {
+        font-size: 1rem !important;
+        padding: 1% !important;
+    }
+    .btn-form1 {
+        margin-top:10px !important;
+        border-top-right-radius: 0.25rem !important;
+        border-bottom-right-radius: .25rem !important;
+    }
+    .btn-form2 {
+        margin-top:10px !important;
+        border-top-left-radius: 0.25rem !important;
+        border-bottom-left-radius: .25rem !important; 
+    }
+    .participantes h2 {
+        font-size: 2.5rem !important;
+    }
+    div.row.forms {
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+    .info-feito{
+        display: block !important;
+    }
+
+    .table{
+        max-width: 248px !important;
+    }
+    .table td a, .table th a {
+        font-size: 0.8rem !important;
+    }
+
+    .img-logo-menu {
+        max-width: 120px;
+        margin-top: 23px;
+    }
+
+    .img-logo-menu2 {
+        max-width: 55px;
+        margin-top: 10px;
+    }
+
+    .navbar-toggler {
+        margin: 5px;
+    }
+
+    .box-home h1{
+        font-size: 1rem !important;
+
+    }
+
+    .box-home span {
+        font-size: 1.2rem !important;
+    }
+}
+
+/* Dispositivos small (telefones em modo paisagem, com menos de 768px) */
+@media (max-width: 767.98px) { 
+    .card-deck {
+        -ms-flex-flow: column;
+        flex-flow: column;
+        align-items: center;
+    }
+
+    .card-deck .card {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex: 1 0 0%;
+        flex: 1 0 0%;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin-right: 15px;
+        margin-bottom: 15px;
+        margin-left: 15px;
+    }
+
+    p.card-text {
+        font-size: 0.7rem;
+    }
+
+    .card-title {
+        font-size: 1.2rem;
+    }
+
+    .card-deck a.btn-primary {
+        font-size: 0.8rem;
+    }
+}
+
+ /* Dispositivos médios (tablets com menos de 992px) */
+@media screen and (max-width: 991.98px) { 
+    .navbar-toggler {
+        margin: 5px;
+    }
+
+    .box-home h1{
+        font-size: 1.2rem;
+
+    }
+
+    .box-home span {
+        font-size: 1.5rem;
+    }
+    
+    .box-circuito p {
+        font-size: 1rem;
+    }
+
+    .info-feito {
+        display: block !important;
+    }
+
+    .box-text-modal {
+        padding: 6%;
+    }
+
+    .col-macro {
+        max-width: 100%;
+    }
+    .table {
+        margin: 0 auto;
+    }
+
+    .box-shows p{
+        font-size: 1rem !important;
+    }
+
+    .box-chefs p{
+        font-size: 1rem !important;
+    }
+
+    .box-inscricao p{
+        font-size: 1rem !important;
+    }
+
+    .box-participantes p{
+        font-size: 1rem !important;
+    }
+
+    .form-restaurante button{
+        font-size: 1.1rem !important;
+    }
+
+    .form-produtor button {
+        font-size: 1.1rem !important;
+    }
+
+    .btn-inscricoes{
+        font-size: 1.1rem !important;
+    }
+
+    .assinatura p{
+        font-size: 10px;
+    }
+
+
+    p.card-text {
+        font-size: 0.7rem;
+    }
+
+    .card-title {
+        font-size: 1.2rem;
+    }
+
+    .card-deck a.btn-primary {
+        font-size: 0.8rem;
+    }
+}
+
+/* Dispositivos large (desktops com menos de 1200px)*/
+@media screen and (max-width: 1199.98px) { 
+    .card-title {
+        font-size: 1.4rem;
+    }
+    .nav-item a {
+        font-size: 0.75rem !important;
+    }
+
+    .table{
+        max-width: 224px !important;
+    }
+
+    .table td a, .table th a {
+        font-size: 0.7rem !important;
+    }
+}
+
+@media screen and (max-width: 1520.98px) { 
+    .nav-item a {
+        font-size: 0.9rem;
+    }
+}
+

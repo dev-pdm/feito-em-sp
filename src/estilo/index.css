@@ -1,0 +1,1448 @@
+/* Autor: Caique Sousa */
+@charset "UTF-8";
+
+@import './hackSeletores.css';
+@import './normalize.css';
+@import './media-queri.css';
+
+@font-face {
+    font-family: GothamBook;
+    src: url(../fonts/GOTHAN/GothamBook.ttf)
+}
+
+@media print {
+    .container {
+        width: auto;
+    }
+}
+
+::-webkit-input-placeholder,
+/* Chrome/Opera/Safari */
+::-moz-placeholder,
+/* Firefox 19+ */
+:-ms-input-placeholder,
+/* IE 10+ */
+:-moz-placeholder,
+/* Firefox 18- */
+::placeholder,
+/* standard */
+label .placeholder
+
+/* this polyfill */
+    {
+    color: #292929;
+    /* your awesome style for the the placeholder text */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: GothamBook, sans-serif;
+}
+
+.top-header {
+    width: 100%;
+    /* height: 15%; */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    background-color: #292929;
+    /* margin-top: 60px; */
+}
+
+.top-header .img-logo-menu img {
+    margin-top: 18px;
+}
+
+.top-header .img-logo-menu2 img {
+    margin-top: 18px;
+}
+
+.img-logo-menu {
+    width: 100%;
+    max-width: 180px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    top: 0;
+    margin-top: 2px;
+}
+
+.img-logo-menu2 {
+    width: 100%;
+    max-width: 65px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    /* margin-top: 10px; */
+}
+
+/* sobreescrevendo css*/
+.fa,
+.fas {
+    padding-top: 3px;
+}
+
+.col-md-12 {
+    padding: 0;
+}
+
+.espace-modal {
+    padding: 2%;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* Estilo NavBar */
+
+.navbar-brand {
+    display: block;
+}
+
+.navbar {
+    z-index: 9999999;
+    background-color: #000000;
+    margin-top: 82px;
+    padding: 0;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    width: 65%;
+    color: #ffffff;
+}
+
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+    /* border-right: 2px solid #fff; */
+}
+
+.nav-item a {
+    font-family: GothamBook, sans-serif;
+    font-weight: 500;
+    font-size: 1.3rem;
+    scroll-behavior: smooth;
+    color: #ffffff !important;
+}
+
+.nav-item a:hover {
+    color: #698f5b !important;
+    font-weight: 700;
+}
+
+.nav-item a:active {
+    color: #698f5b !important;
+}
+
+/* sobre escrevendo css */
+
+.navbar-toggler {
+    background-color: #000000;
+    border: 1px solid #ffffff;
+}
+
+.navbar-toggler-icon {
+    padding-top: 3px;
+    color: white;
+    font-weight: 900;
+}
+
+.dropdown-menu {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.dropdown-menu a:active {
+    background-color: #000000;
+    color: #698f5b;
+}
+
+/* Fim NavBar */
+
+/* Estilo Home */
+.home {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/09/home.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    padding-bottom: 180px;
+}
+
+.box-home h1 {
+    font-family: GothamBook, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    /* max-width: 700px; */
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 5% 12% 5% 12%;
+    /* background-color: rgb(0, 0, 0, 0.8); */
+    background-color: #000000cc;
+}
+
+/* Fim Home */
+
+/* Estilo circuito */
+.circuito {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/09/etapas.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 180px;
+    padding-bottom: 60px;
+}
+
+.circuito h2 {
+    font-family: GothamBook, sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    color: #ffffff;
+    text-align: center;
+    margin: 10px;
+    text-shadow: 5px 5px 5px #000000;
+}
+
+.box-circuito p {
+    font-family: GothamBook, sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 700;
+    color: #ffffff;
+    /* max-width: 530px; */
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    padding: 2% 12% 2% 12%;
+    background-color: #000000cc;
+}
+
+.info-feito {
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #000000cc;
+    padding: 15px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.circuito-mapa1 img {
+    width: 100%;
+    /* max-width: 1100px; */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    /* box-shadow: 10px 5px 5px black; */
+    /* margin: 0 auto; */
+    margin-left: 6%;
+}
+
+
+.col-macro {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    max-width: 25%;
+    z-index: 999;
+}
+
+.table {
+    width: 100%;
+    max-width: 296px;
+    display: -ms-grid;
+    display: grid;
+    /* margin: 0 auto; */
+    color: #ffffff;
+    font-size: 1rem;
+    background-color: #000000;
+    overflow-y: hidden;
+}
+
+.table thead th {
+    /* border-bottom: 2px solid #dee2e6; */
+    border: none;
+}
+
+thead {
+    background-color: #659062 !important;
+    font-size: 1.7rem;
+}
+
+th a {
+    color: #000000 !important;
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+td a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #ffffff !important;
+}
+
+th a:hover {
+    text-decoration: none;
+    color: #f2f2f2 !important;
+    font-weight: 700;
+}
+
+td a:hover {
+    text-decoration: none;
+    color: #f2f2f2 !important;
+    font-weight: 700;
+}
+
+.name-regioes {
+    font-family: GothamBook, sans-serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 5px;
+}
+
+.btn-regioes {
+    font-family: GothamBook, sans-serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px;
+}
+
+.btn-group-regioes {
+    display: block;
+}
+
+.btn-regioes-2 {
+    background-color: #ec9490;
+}
+
+.btn-regioes-3 {
+    background-color: #ccb3c1;
+}
+
+.btn-regioes-4 {
+    background-color: #ee5074;
+}
+
+.btn-regioes-5 {
+    background-color: #f3dba3;
+}
+
+.btn-regioes-6 {
+    background-color: #0092d6;
+}
+
+.btn-regioes-8 {
+    background-color: #f9ef25;
+}
+
+.btn-regioes-9 {
+    background-color: #f5a437;
+}
+
+.btn-regioes-10 {
+    background-color: #cdc5dc;
+}
+
+.btn-regioes-11 {
+    background-color: #e82746;
+}
+
+.btn-regioes-12 {
+    background-color: #bacf6a;
+}
+
+.btn-regioes-13 {
+    background-color: #feca24;
+}
+
+.btn-regioes-15 {
+    background-color: #188367;
+}
+
+.btn-regioes-16 {
+    background-color: #87d1ef;
+}
+
+.btn-regioes-17 {
+    background-color: #00a152;
+}
+
+.btn-regioes-18 {
+    background-color: #f3dadf;
+}
+
+.cronometro-modal span {
+    color: #659062
+}
+
+.cronometro-modal {
+    font-family: GothamBook, sans-serif;
+    font-size: 1.7rem;
+    text-align: center;
+    font-weight: 700;
+    color: #ffffff;
+    /* max-width: 530px; */
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color: #000000cc;
+}
+
+.modal-2-10 {
+    background-image: url(https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/09/sao-carlos.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* padding-top: 60px; */
+    padding-bottom: 60px;
+}
+
+.modal-3-10 {
+    background-image: url(https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/09/ribeirao-pretocarlosnatal-12.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* padding-top: 60px; */
+    padding-bottom: 60px;
+}
+
+.modal-4-10 {
+    background-image: url(https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/09/franca.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* padding-top: 60px; */
+    padding-bottom: 60px;
+}
+
+.modal-5-10 {
+    background-image: url(https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/09/barretos.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* padding-top: 60px; */
+    padding-bottom: 60px;
+}
+
+.modal-6-10 {
+    background-image: url(https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/09/sjriopreto.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* padding-top: 60px; */
+    padding-bottom: 60px;
+}
+
+.modal-8-10 {
+    background-image: url(https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/09/aracatuba_01_foto_nelson_gomes.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* padding-top: 60px; */
+    padding-bottom: 60px;
+}
+
+.modal-9-10 {
+    background-image: url(https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/09/presidente-prudente.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* padding-top: 60px; */
+    padding-bottom: 60px;
+}
+
+.modal-10-10 {
+    background-image: url(https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/09/marilha-foto-ligia-ferreira.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* padding-top: 60px; */
+    padding-bottom: 60px;
+}
+
+.modal-11-10 {
+    background-image: url(https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/09/bauru.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* padding-top: 60px; */
+    padding-bottom: 60px;
+}
+
+.modal-12-10 {
+    background-image: url(https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/09/sorocaba.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* padding-top: 60px; */
+    padding-bottom: 60px;
+}
+
+.modal-13-10 {
+    background-image: url(https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/09/campinas_foto-rogerio-capela.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* padding-top: 60px; */
+    padding-bottom: 60px;
+}
+
+.modal-15-10 {
+    background-image: url(https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/09/taubate.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* padding-top: 60px; */
+    padding-bottom: 60px;
+}
+
+.modal-16-10 {
+    background-image: url(https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/09/santos-susan-hortas_4398.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* padding-top: 60px; */
+    padding-bottom: 60px;
+}
+
+.modal-17-10 {
+    background-image: url(https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/09/registro.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* padding-top: 60px; */
+    padding-bottom: 60px;
+}
+
+.modal-18-10 {
+    background-image: url(https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/09/sao-bernardo.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* padding-top: 60px; */
+    padding-bottom: 60px;
+}
+
+.box-text-modal {
+    background-color: #000000cc;
+    padding: 3%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.modal-body h2 {
+    font-family: GothamBook, sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    color: #ffffff;
+    text-align: center;
+    margin: 10px;
+    text-shadow: 5px 5px 5px #000000;
+}
+
+.box-text-modal h3 {
+    font-family: GothamBook, sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 700;
+    color: #ffffff;
+    /* padding: 2%; */
+    padding-bottom: 4%;
+    display: block;
+    margin: 0 auto;
+}
+
+.text-modal-form h5 {
+    font-family: GothamBook, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.list-2-10 {
+    padding-left: 3%;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px black;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.btn-modal-cidade button {
+    display: block;
+    margin: 0 auto;
+    background-color: #000000;
+    border: 3px solid #ffffff;
+    font-size: 1rem;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.btn-modal-cidade button:hover {
+    background-color: #ffffff;
+    border: 3px solid #f2f2f2;
+    font-size: 1rem;
+    color: #000000;
+    font-weight: 700;
+}
+
+.btn-modal-cidade {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 10px;
+
+}
+
+/* Fim circuito */
+
+/* Estilo Shows */
+.shows {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/09/shows.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 180px;
+    padding-bottom: 230px;
+}
+
+.shows h2 {
+    font-family: GothamBook, sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    color: #ffffff;
+    text-align: center;
+    margin: 10px;
+    text-shadow: 5px 5px 5px #000000;
+}
+
+.box-shows p {
+    font-family: GothamBook, sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 700;
+    color: #ffffff;
+    /* max-width: 530px; */
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    padding: 2% 12% 2% 12%;
+    background-color: #000000cc;
+}
+
+/* Fim Shows */
+
+.masterclass {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/09/masterclass.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 180px;
+    padding-bottom: 230px;
+}
+
+.masterclass h2 {
+    font-family: GothamBook, sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    color: #ffffff;
+    text-align: center;
+    margin: 10px;
+    text-shadow: 5px 5px 5px #000000;
+}
+
+.box-masterclass p {
+    font-family: GothamBook, sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 700;
+    color: #ffffff;
+    /* max-width: 530px; */
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    padding: 2% 12% 2% 12%;
+    background-color: #000000cc;
+}
+
+.card {
+    max-width: 380px;
+    border-radius: 0;
+}
+
+.card-img-top {
+    border-radius: 0;
+}
+
+.card-deck {
+    margin-top: 50px;
+    margin-right: 0;
+    margin-left: 0;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.card-chefs.card {
+    max-width: 350px;
+}
+
+.card-body {
+    background-color: #000000;
+}
+
+p.card-text {
+    text-align: left;
+    background-color: #000000;
+    color: #ffffff;
+    padding-left: 0;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+.card-title {
+    font-weight: 900;
+    font-size: 1.7rem;
+    color: #ffffff;
+}
+
+.card-deck a.btn-primary {
+    margin: 0 auto;
+    display: block;
+    background-color: black;
+    color: white;
+    border-color: white;
+    font-weight: 700;
+}
+
+.card-deck a.btn-primary:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.aula-Tecnica {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/09/aulas-tecnicas.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 180px;
+    padding-bottom: 230px;
+}
+
+.aula-Tecnica h2 {
+    font-family: GothamBook, sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    color: #ffffff;
+    text-align: center;
+    margin: 10px;
+    text-shadow: 5px 5px 5px #000000;
+}
+
+.box-aula-tecnica p {
+    font-family: GothamBook, sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 700;
+    color: #ffffff;
+    /* max-width: 530px; */
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    padding: 2% 12% 2% 12%;
+    background-color: #000000cc;
+}
+
+/* Selecionados */
+.selecionados {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/09/participantes.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 180px;
+    padding-bottom: 130px;
+}
+
+.selecionados h2 {
+    font-family: GothamBook, sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    color: #ffffff;
+    text-align: center;
+    margin: 10px;
+    text-shadow: 5px 5px 5px #000000;
+}
+
+.box-selecionados p {
+    font-family: GothamBook, sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 700;
+    color: #ffffff;
+    /* max-width: 530px; */
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    padding: 2% 12% 2% 12%;
+    background-color: #000000cc;
+}
+
+/* Fim selecionados */
+
+/* Estilo workshops */
+.workshops {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/09/chefs.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 180px;
+    padding-bottom: 130px;
+}
+
+.workshops h2 {
+    font-family: GothamBook, sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    color: #ffffff;
+    text-align: center;
+    margin: 10px;
+    text-shadow: 5px 5px 5px #000000;
+}
+
+.box-workshops-p {
+    font-family: GothamBook, sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 700;
+    color: #ffffff;
+    /* max-width: 530px; */
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    padding: 2% 12% 2% 12%;
+    background-color: #000000cc;
+}
+
+.card-workshops {
+    width: 100%;
+    max-width: 500px;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+}
+
+.btn-aula {
+    display: block;
+    margin: 0 auto;
+    background-color: #000000;
+    font-size: 1.5rem;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.btn-aula:hover {
+    background-color: #f2f2f2;
+    color: #000000;
+    border-color: #f2f2f2;
+}
+
+.workshops form {
+    width: 100%;
+    /* max-width: 700px; */
+    display: block;
+    margin: 0 auto;
+}
+
+.workshops form label {
+    font-family: GothamBook, sans-serif;
+    color: #000000;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.workshops form {
+    color: #000000;
+    font-weight: 700;
+    /* border: 1px solid #f2f2f2; */
+}
+
+
+.btn-inscricoes {
+    display: block;
+    margin: 0 auto;
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: 700;
+    border: 3px solid #ffffff;
+    font-size: 1.5rem;
+}
+
+.btn-inscricoes:hover {
+    background-color: #f2f2f2;
+    color: #000000;
+    border-color: #f2f2f2;
+}
+
+.btn-inscricoes:active {
+    background-color: #f2f2f2;
+    color: #000000;
+    border-color: #f2f2f2;
+}
+
+/* Fim workshops */
+
+/* Estilo inscricao */
+.inscricao {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/09/inscricao.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 180px;
+    padding-bottom: 130px;
+}
+
+.inscricao h2 {
+    font-family: GothamBook, sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    color: #ffffff;
+    text-align: center;
+    padding: 2%;
+    margin-bottom: 20px;
+    text-shadow: 5px 5px 5px #000000;
+}
+
+.box-inscricao p {
+    font-family: GothamBook, sans-serif;
+    font-size: 17px;
+    text-align: center;
+    font-weight: 600;
+    color: #ffffff;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    padding: 2% 12% 2% 12%;
+    background-color: #000000cc;
+}
+
+div.row.forms {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.form-restaurante button {
+    display: block;
+    margin: 0 auto;
+    background-color: #000000;
+    border: 3px solid #ffffff;
+    font-size: 1.5rem;
+    color: #ffffff;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.form-produtor button {
+    display: block;
+    margin: 0 auto;
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: 700;
+    border: 3px solid #ffffff;
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+
+.form-produtor button:hover {
+    background-color: #f2f2f2;
+    color: #000000;
+    border-color: #f2f2f2;
+}
+
+.form-restaurante button:hover {
+    background-color: #f2f2f2;
+    color: #000000;
+    border-color: #f2f2f2;
+}
+
+.form-produtor button:active {
+    background-color: #f2f2f2;
+    color: #000000;
+    border-color: #f2f2f2;
+}
+
+.form-restaurante button:active {
+    background-color: #f2f2f2;
+    color: #000000;
+    border-color: #f2f2f2;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active {
+    background-color: #f2f2f2;
+    color: #000000;
+    border-color: #f2f2f2;
+}
+
+.inscricao form {
+    width: 100%;
+    max-width: 700px;
+    display: block;
+    margin: 0 auto;
+}
+
+.inscricao form label {
+    font-family: GothamBook, sans-serif;
+    color: #000000;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.inscricao form .form-control {
+    color: #000000;
+    font-weight: 700;
+    border: 1px solid #f2f2f2;
+}
+
+.inscricao form .file-name {
+    color: #000000;
+}
+
+.inscricao form .btn-primary {
+    background-color: #000000;
+    color: #ffffff;
+    border-color: #ffffff;
+    font-weight: 700;
+    margin: 0 auto;
+}
+
+.inscricao form .btn-primary:hover {
+    background-color: #f2f2f2;
+    border-color: #ffffff;
+    color: #000000;
+    font-weight: 700;
+}
+
+.inscricao form .form-check-input {
+    margin-top: 0.5rem;
+}
+
+.custom-file-label::after {
+    content: "Anexar foto";
+    -webkit-text-fill-color: #ffffff;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.custom-file-label {
+    border: 1px solid #f2f2f2;
+}
+
+input[type=text]::-webkit-input-placeholder {
+    color: #495057;
+}
+
+input[type=text]::-moz-placeholder {
+    color: #495057;
+}
+
+input[type=text]:-ms-input-placeholder {
+    color: #495057;
+}
+
+input[type=text]::-ms-input-placeholder {
+    color: #495057;
+}
+
+input[type=text]::placeholder {
+    color: #495057;
+}
+
+input[type=text]::-webkit-input-placeholder {
+    color: #495057;
+}
+
+input[type=text]::-moz-placeholder {
+    color: #495057;
+}
+
+input[type=email]::-webkit-input-placeholder {
+    color: #495057;
+}
+
+input[type=email]::-moz-placeholder {
+    color: #495057;
+}
+
+input[type=email]:-ms-input-placeholder {
+    color: #495057;
+}
+
+input[type=email]::-ms-input-placeholder {
+    color: #495057;
+}
+
+input[type=email]::placeholder {
+    color: #495057;
+}
+
+input[type=email]::-webkit-input-placeholder {
+    color: #495057;
+}
+
+input[type=email]::-moz-placeholder {
+    color: #495057;
+}
+
+.modal {
+    z-index: 10599999990;
+}
+
+.modal.fade .modal-dialog {
+    /* width: 100%; */
+    max-width: 800px;
+}
+
+.modal-title {
+    font-family: GothamBook, sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    color: #000000;
+}
+
+.close {
+    opacity: 1;
+    border: 0;
+}
+
+.close button {
+    border: 0;
+}
+
+.fade {
+    -webkit-transition: opacity .25s linear;
+    -o-transition: opacity .25s linear;
+    transition: opacity .25s linear;
+}
+
+.inscricao form .form-control.text-regulamento {
+    text-align: left;
+    color: #000000;
+    font-size: 0.7rem;
+}
+
+#inputCNPJ::-webkit-input-placeholder {
+    color: #495057;
+}
+
+#inputCNPJ::-moz-placeholder {
+    color: #495057;
+}
+
+#inputCNPJ:-ms-input-placeholder {
+    color: #495057;
+}
+
+#inputCNPJ::-ms-input-placeholder {
+    color: #495057;
+}
+
+#inputCNPJ::placeholder {
+    color: #495057;
+}
+
+#inputCNPJ2::-webkit-input-placeholder {
+    color: #495057;
+}
+
+#inputCNPJ2::-moz-placeholder {
+    color: #495057;
+}
+
+#inputCNPJ2:-ms-input-placeholder {
+    color: #495057;
+}
+
+#inputCNPJ2::-ms-input-placeholder {
+    color: #495057;
+}
+
+#inputCNPJ2::placeholder {
+    color: #495057;
+}
+
+#inputCep::-webkit-input-placeholder {
+    color: #495057;
+}
+
+#inputCep::-moz-placeholder {
+    color: #495057;
+}
+
+#inputCep:-ms-input-placeholder {
+    color: #495057;
+}
+
+#inputCep::-ms-input-placeholder {
+    color: #495057;
+}
+
+#inputCep::placeholder {
+    color: #495057;
+}
+
+#inputCep2::-webkit-input-placeholder {
+    color: #495057;
+}
+
+#inputCep2::-moz-placeholder {
+    color: #495057;
+}
+
+#inputCep2:-ms-input-placeholder {
+    color: #495057;
+}
+
+#inputCep2::-ms-input-placeholder {
+    color: #495057;
+}
+
+#inputCep2::placeholder {
+    color: #495057;
+}
+
+#inputCPFAula::-webkit-input-placeholder {
+    color: #495057;
+}
+
+#inputCPFAula::-moz-placeholder {
+    color: #495057;
+}
+
+#inputCPFAula:-ms-input-placeholder {
+    color: #495057;
+}
+
+#inputCPFAula::-ms-input-placeholder {
+    color: #495057;
+}
+
+#inputCPFAula::placeholder {
+    color: #495057;
+}
+
+/* Fim inscricao */
+
+/* Regulamento */
+.txt-modal-regulamento {
+    padding: 1%;
+    font-size: 0.9rem;
+}
+
+.modal-footer button a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.modal-footer button {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1.1rem;
+    background-color: #000000;
+    border-color: #000000;
+}
+
+.modal-footer button:hover {
+    background-color: #ffffff;
+    border-color: #f2f2f2;
+    color: #000000;
+    font-weight: 700;
+}
+
+.modal-footer a:hover {
+    color: #000000;
+    font-weight: 700;
+}
+
+/* Fim Regulamento */
+
+/* Footer */
+footer {
+    background-color: #000000;
+}
+
+.assinatura p {
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* Fim Footer */
+
+/* Pagina de Sucesso */
+.pg-sucess {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/09/tela-de-sucess.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+.pg-sucess-logo {
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.box-pg-sucess h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.box-pg-sucess p {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.box-pg-sucess a {
+    text-decoration: none;
+}
+
+.pg-sucess-btn {
+    width: 100%;
+    max-width: 290px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 1.5rem;
+    background-color: #000000;
+    border-color: #000000;
+    text-decoration: none;
+}
+
+.pg-sucess-btn:hover {
+    background-color: #ffffff;
+    border-color: #000000;
+    color: #000000;
+    text-decoration: none;
+}
+
+.pg-sucess-btn a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+/* Fim Pagina de Sucesso */
