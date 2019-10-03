@@ -1,6 +1,6 @@
 //Autor: Caique Sousa
 import './cronometro'
-import './modernizr-custom'
+// import './modernizr-custom'
 import '../estilo/index'
 
 //Busca de CEP

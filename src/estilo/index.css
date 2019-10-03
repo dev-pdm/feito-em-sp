@@ -1,9 +1,9 @@
 /* Autor: Caique Sousa */
 @charset "UTF-8";
 
-@import './hackSeletores.css';
-@import './normalize.css';
 @import './media-queri.css';
+/* @import './hackSeletores.css'; */
+/* @import './normalize.css'; */
 
 @font-face {
     font-family: GothamBook;
@@ -30,7 +30,7 @@ label .placeholder
 
 /* this polyfill */
     {
-    color: #292929;
+    color: #000000;
     /* your awesome style for the the placeholder text */
 }
 
@@ -43,7 +43,7 @@ label .placeholder
 
 html {
     scroll-behavior: smooth;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
 }
 
 body {
@@ -144,7 +144,6 @@ body {
     font-family: GothamBook, sans-serif;
     font-weight: 500;
     font-size: 1.3rem;
-    scroll-behavior: smooth;
     color: #ffffff !important;
 }
 
@@ -210,6 +209,13 @@ body {
     /* background-color: rgb(0, 0, 0, 0.8); */
     background-color: #000000cc;
 }
+
+.box-home p {
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 15px;
+}
+
 
 /* Fim Home */
 
@@ -318,12 +324,14 @@ th a {
     color: #000000 !important;
     text-decoration: none;
     padding-left: 5px;
+    font-size: 1rem;
 }
 
 td a {
     text-decoration: none;
     font-weight: 500;
     color: #ffffff !important;
+    font-size: 1rem;
 }
 
 th a:hover {
@@ -592,6 +600,7 @@ td a:hover {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    justify-content: center;
 }
 
 .modal-body h2 {
@@ -658,6 +667,26 @@ td a:hover {
 
 }
 
+.box-macros {
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 2% 12% 2% 7%;
+}
+
+.box-circuito p, .box-macros {
+    font-family: GothamBook,sans-serif;
+    color: #fff;
+    width: 90%;
+    display: block;
+    margin: 60px auto 40px;
+    background-color: rgba(0,0,0,.8);
+}
+
+.box-macros h4 {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
 /* Fim circuito */
 
 /* Estilo Shows */
@@ -697,6 +726,25 @@ td a:hover {
     margin-bottom: 40px;
     padding: 2% 12% 2% 12%;
     background-color: #000000cc;
+}
+
+.box-shows .box-programação{
+    /* max-width: 530px; */
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    padding: 2% 12% 2% 12%;
+    background-color: #000000cc;
+}
+
+.box-shows .box-programação h3{
+    font-family: GothamBook, sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 700;
+    color: #ffffff;
 }
 
 /* Fim Shows */
@@ -816,7 +864,7 @@ p.card-text {
     text-shadow: 5px 5px 5px #000000;
 }
 
-.box-aula-tecnica p {
+.box-aula-Tecnica-p {
     font-family: GothamBook, sans-serif;
     font-size: 1.3rem;
     text-align: center;
@@ -830,6 +878,33 @@ p.card-text {
     margin-bottom: 40px;
     padding: 2% 12% 2% 12%;
     background-color: #000000cc;
+}
+
+.box-aula-tecnica-prog {
+    font-family: GothamBook, sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 700;
+    color: #ffffff;
+    /* max-width: 530px; */
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    padding: 2% 12% 2% 12%;
+    background-color: #000000cc;
+}
+
+.box-aula-tecnica-prog p {
+    font-family: GothamBook,sans-serif;
+    color: #fff;
+}
+
+.box-aula-tecnica-prog h4 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding-top: 20px;
 }
 
 /* Selecionados */
@@ -855,7 +930,7 @@ p.card-text {
     text-shadow: 5px 5px 5px #000000;
 }
 
-.box-selecionados p {
+.box-selecionados-p {
     font-family: GothamBook, sans-serif;
     font-size: 1.3rem;
     text-align: center;
@@ -869,6 +944,21 @@ p.card-text {
     margin-bottom: 40px;
     padding: 2% 12% 2% 12%;
     background-color: #000000cc;
+}
+
+.selecionados-title{
+    font-family: GothamBook,sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 25px;
+}
+
+.selecionados-etapa-txt{
+    font-size: 1rem;
+    text-align: left;
+    font-weight: 500;
+    color: #ffffff;
 }
 
 /* Fim selecionados */
@@ -942,6 +1032,9 @@ p.card-text {
     /* max-width: 700px; */
     display: block;
     margin: 0 auto;
+    color: #000000;
+    font-weight: 700;
+    /* border: 1px solid #f2f2f2; */
 }
 
 .workshops form label {
@@ -950,13 +1043,6 @@ p.card-text {
     font-weight: 900;
     font-size: 18px;
 }
-
-.workshops form {
-    color: #000000;
-    font-weight: 700;
-    /* border: 1px solid #f2f2f2; */
-}
-
 
 .btn-inscricoes {
     display: block;
@@ -1092,7 +1178,7 @@ div.row.forms {
     font-family: GothamBook, sans-serif;
     color: #000000;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.1rem;
 }
 
 .inscricao form .form-control {
@@ -1111,6 +1197,8 @@ div.row.forms {
     border-color: #ffffff;
     font-weight: 700;
     margin: 0 auto;
+    font-size: 1.7rem;
+
 }
 
 .inscricao form .btn-primary:hover {
@@ -1126,7 +1214,7 @@ div.row.forms {
 
 .custom-file-label::after {
     content: "Anexar foto";
-    -webkit-text-fill-color: #ffffff;
+    /* -webkit-text-fill-color: #ffffff; */
     color: #ffffff;
     background-color: #000000;
 }
@@ -1333,12 +1421,16 @@ input[type=email]::-moz-placeholder {
 /* Regulamento */
 .txt-modal-regulamento {
     padding: 1%;
-    font-size: 0.9rem;
+    font-size: 15px;
+    color: #000000;
+    font-weight: 500;
 }
 
 .modal-footer button a {
     text-decoration: none;
     color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 500;
 }
 
 .modal-footer button {

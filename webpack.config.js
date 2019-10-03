@@ -12,7 +12,7 @@ module.exports = {
         path: __dirname + '/public'
     },
     devServer: {
-        contentBase: "./public",
+        contentBase: "./",
         port: 9000
     },
     optimization: {
@@ -30,12 +30,19 @@ module.exports = {
         })
     ],
     module: {
-        rules: [{
-            test: /\.css$/,
+        rules: [
+            // {
+            //     "enforce": "pre",
+            //     "test": /\.(js|jsx)$/,
+            //     "exclude": /node_modules/,
+            //     "use": "eslint-loader"
+            // },
+            {
+            test: /\.s?[ac]ss$/,
             use: [
                 MiniCssExtractPlugin.loader,
                 // 'style-loader', // Adiciona CSS a DOM injetando a tag <style>
-                'css-loader' // interpreta @import, url()...
+                'css-loader', // interpreta @import, url()...
                 // 'sass-loader',
             ]
         }, {

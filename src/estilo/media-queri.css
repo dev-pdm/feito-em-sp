@@ -33,17 +33,17 @@
     }
 
     .img-logo-menu {
-        max-width: 120px;
-        margin-top: 23px;
+        max-width: 120px !important;
+        margin-top: 23px !important;
     }
 
     .img-logo-menu2 {
-        max-width: 55px;
-        margin-top: 10px;
+        max-width: 55px !important;
+        margin-top: 10px !important;
     }
 
     .navbar-toggler {
-        margin: 5px;
+        margin: 5px !important;
     }
 
     .box-home h1{
@@ -77,35 +77,34 @@
     }
 
     p.card-text {
-        font-size: 0.7rem;
+        font-size: 0.7rem !important;
     }
 
     .card-title {
-        font-size: 1.2rem;
+        font-size: 1.2rem !important;
     }
 
     .card-deck a.btn-primary {
-        font-size: 0.8rem;
+        font-size: 0.8rem !important;
     }
 }
 
  /* Dispositivos médios (tablets com menos de 992px) */
 @media screen and (max-width: 991.98px) { 
     .navbar-toggler {
-        margin: 5px;
+        margin: 5px !important;
     }
 
     .box-home h1{
-        font-size: 1.2rem;
-
+        font-size: 1.2rem !important;
     }
 
     .box-home span {
-        font-size: 1.5rem;
+        font-size: 1.5rem !important;
     }
     
     .box-circuito p {
-        font-size: 1rem;
+        font-size: 1rem !important;
     }
 
     .info-feito {
@@ -113,14 +112,14 @@
     }
 
     .box-text-modal {
-        padding: 6%;
+        padding: 6% !important;
     }
 
     .col-macro {
-        max-width: 100%;
+        max-width: 100% !important;
     }
     .table {
-        margin: 0 auto;
+        margin: 0 auto !important;
     }
 
     .box-shows p{
@@ -152,27 +151,27 @@
     }
 
     .assinatura p{
-        font-size: 10px;
+        font-size: 10px !important;
     }
 
 
     p.card-text {
-        font-size: 0.7rem;
+        font-size: 0.7rem !important;
     }
 
     .card-title {
-        font-size: 1.2rem;
+        font-size: 1.2rem !important;
     }
 
     .card-deck a.btn-primary {
-        font-size: 0.8rem;
+        font-size: 0.8rem !important;
     }
 }
 
 /* Dispositivos large (desktops com menos de 1200px)*/
 @media screen and (max-width: 1199.98px) { 
     .card-title {
-        font-size: 1.4rem;
+        font-size: 1.4rem !important;
     }
     .nav-item a {
         font-size: 0.75rem !important;
@@ -189,7 +188,7 @@
 
 @media screen and (max-width: 1520.98px) { 
     .nav-item a {
-        font-size: 0.9rem;
+        font-size: 0.75rem !important;
     }
 }
 
