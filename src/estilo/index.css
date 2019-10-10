@@ -1,9 +1,9 @@
 /* Autor: Caique Sousa */
 @charset "UTF-8";
 
-@import './hackSeletores.css';
-@import './normalize.css';
 @import './media-queri.css';
+/* @import './hackSeletores.css'; */
+/* @import './normalize.css'; */
 
 @font-face {
     font-family: GothamBook;
@@ -30,7 +30,7 @@ label .placeholder
 
 /* this polyfill */
     {
-    color: #292929;
+    color: #000000;
     /* your awesome style for the the placeholder text */
 }
 
@@ -43,7 +43,7 @@ label .placeholder
 
 html {
     scroll-behavior: smooth;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
 }
 
 body {
@@ -144,7 +144,6 @@ body {
     font-family: GothamBook, sans-serif;
     font-weight: 500;
     font-size: 1.3rem;
-    scroll-behavior: smooth;
     color: #ffffff !important;
 }
 
@@ -186,7 +185,7 @@ body {
 .home {
     width: 100%;
     height: 100%;
-    background-image: url("https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/09/home.jpg");
+    background-image: url("../imgs/home.jpg");
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -211,13 +210,20 @@ body {
     background-color: #000000cc;
 }
 
+.box-home p {
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 15px;
+}
+
+
 /* Fim Home */
 
 /* Estilo circuito */
 .circuito {
     width: 100%;
     height: 100%;
-    background-image: url("https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/09/etapas.jpg");
+    background-image: url("../imgs/etapas.jpg");
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -318,12 +324,14 @@ th a {
     color: #000000 !important;
     text-decoration: none;
     padding-left: 5px;
+    font-size: 1rem;
 }
 
 td a {
     text-decoration: none;
     font-weight: 500;
     color: #ffffff !important;
+    font-size: 1rem;
 }
 
 th a:hover {
@@ -437,7 +445,7 @@ td a:hover {
 }
 
 .modal-2-10 {
-    background-image: url(https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/09/sao-carlos.jpg);
+    background-image: url(../imgs/sao-carlos.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -447,7 +455,7 @@ td a:hover {
 }
 
 .modal-3-10 {
-    background-image: url(https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/09/ribeirao-pretocarlosnatal-12.jpg);
+    background-image: url(../imgs/presidente-prudente.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -457,7 +465,7 @@ td a:hover {
 }
 
 .modal-4-10 {
-    background-image: url(https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/09/franca.png);
+    background-image: url(../imgs/franca.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -467,7 +475,7 @@ td a:hover {
 }
 
 .modal-5-10 {
-    background-image: url(https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/09/barretos.jpg);
+    background-image: url(../imgs/barretos.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -477,7 +485,7 @@ td a:hover {
 }
 
 .modal-6-10 {
-    background-image: url(https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/09/sjriopreto.jpg);
+    background-image: url(../imgs/sjriopreto.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -487,7 +495,7 @@ td a:hover {
 }
 
 .modal-8-10 {
-    background-image: url(https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/09/aracatuba_01_foto_nelson_gomes.jpg);
+    background-image: url(../imgs/aracatuba.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -497,7 +505,7 @@ td a:hover {
 }
 
 .modal-9-10 {
-    background-image: url(https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/09/presidente-prudente.jpg);
+    background-image: url(../imgs/presidente-prudente.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -507,7 +515,7 @@ td a:hover {
 }
 
 .modal-10-10 {
-    background-image: url(https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/09/marilha-foto-ligia-ferreira.jpg);
+    background-image: url(../imgs/marilia.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -517,7 +525,7 @@ td a:hover {
 }
 
 .modal-11-10 {
-    background-image: url(https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/09/bauru.jpg);
+    background-image: url(../imgs/bauru.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -527,7 +535,7 @@ td a:hover {
 }
 
 .modal-12-10 {
-    background-image: url(https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/09/sorocaba.png);
+    background-image: url(../imgs/sorocaba.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -537,7 +545,7 @@ td a:hover {
 }
 
 .modal-13-10 {
-    background-image: url(https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/09/campinas_foto-rogerio-capela.jpg);
+    background-image: url(../imgs/campinas.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -547,7 +555,7 @@ td a:hover {
 }
 
 .modal-15-10 {
-    background-image: url(https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/09/taubate.jpg);
+    background-image: url(../imgs/taubate.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -557,7 +565,7 @@ td a:hover {
 }
 
 .modal-16-10 {
-    background-image: url(https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/09/santos-susan-hortas_4398.png);
+    background-image: url(../imgs/santos.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -567,7 +575,7 @@ td a:hover {
 }
 
 .modal-17-10 {
-    background-image: url(https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/09/registro.jpg);
+    background-image: url(../imgs/registro.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -577,7 +585,7 @@ td a:hover {
 }
 
 .modal-18-10 {
-    background-image: url(https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/09/sao-bernardo.jpg);
+    background-image: url(../imgs/sao-bernardo.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -592,6 +600,7 @@ td a:hover {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    justify-content: center;
 }
 
 .modal-body h2 {
@@ -658,13 +667,33 @@ td a:hover {
 
 }
 
+.box-macros {
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 2% 12% 2% 7%;
+}
+
+.box-circuito p, .box-macros {
+    font-family: GothamBook,sans-serif;
+    color: #fff;
+    width: 90%;
+    display: block;
+    margin: 60px auto 40px;
+    background-color: rgba(0,0,0,.8);
+}
+
+.box-macros h4 {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
 /* Fim circuito */
 
 /* Estilo Shows */
 .shows {
     width: 100%;
     height: 100%;
-    background-image: url("https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/09/shows.jpg");
+    background-image: url("../imgs/shows.jpg");
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -699,12 +728,31 @@ td a:hover {
     background-color: #000000cc;
 }
 
+.box-shows .box-programação{
+    /* max-width: 530px; */
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    padding: 2% 12% 2% 12%;
+    background-color: #000000cc;
+}
+
+.box-shows .box-programação h3{
+    font-family: GothamBook, sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 700;
+    color: #ffffff;
+}
+
 /* Fim Shows */
 
 .masterclass {
     width: 100%;
     height: 100%;
-    background-image: url("https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/09/masterclass.jpg");
+    background-image: url("../imgs/masterclass.jpg");
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -797,7 +845,7 @@ p.card-text {
 .aula-Tecnica {
     width: 100%;
     height: 100%;
-    background-image: url("https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/09/aulas-tecnicas.jpg");
+    background-image: url("../imgs/aulas-tecnicas.jpg");
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -816,7 +864,7 @@ p.card-text {
     text-shadow: 5px 5px 5px #000000;
 }
 
-.box-aula-tecnica p {
+.box-aula-Tecnica-p {
     font-family: GothamBook, sans-serif;
     font-size: 1.3rem;
     text-align: center;
@@ -832,11 +880,38 @@ p.card-text {
     background-color: #000000cc;
 }
 
+.box-aula-tecnica-prog {
+    font-family: GothamBook, sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 700;
+    color: #ffffff;
+    /* max-width: 530px; */
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    padding: 2% 12% 2% 12%;
+    background-color: #000000cc;
+}
+
+.box-aula-tecnica-prog p {
+    font-family: GothamBook,sans-serif;
+    color: #fff;
+}
+
+.box-aula-tecnica-prog h4 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
 /* Selecionados */
 .selecionados {
     width: 100%;
     height: 100%;
-    background-image: url("https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/09/participantes.png");
+    background-image: url("../imgs/participantes.png");
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -855,7 +930,7 @@ p.card-text {
     text-shadow: 5px 5px 5px #000000;
 }
 
-.box-selecionados p {
+.box-selecionados-p {
     font-family: GothamBook, sans-serif;
     font-size: 1.3rem;
     text-align: center;
@@ -871,13 +946,47 @@ p.card-text {
     background-color: #000000cc;
 }
 
+.selecionados-title{
+    font-family: GothamBook,sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 25px;
+    display: flex;
+}
+
+.selecionados-title p{
+    font-size: 2.2rem;
+    font-weight: 900;
+    color: #698f5b;
+}
+
+.selecionados-etapa-txt{
+    font-size: 1rem;
+    text-align: left;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.selecionados-etapa-txt-h4{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 900;
+    color: #698f5b;
+    text-shadow: 1px 1px 1px #ffffff;
+}
+
+.selecionados-etapa{
+    border: 5px solid #698f5b;
+}
+
 /* Fim selecionados */
 
 /* Estilo workshops */
 .workshops {
     width: 100%;
     height: 100%;
-    background-image: url("https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/09/chefs.jpg");
+    background-image: url("../imgs/chefs.jpg");
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -942,6 +1051,9 @@ p.card-text {
     /* max-width: 700px; */
     display: block;
     margin: 0 auto;
+    color: #000000;
+    font-weight: 700;
+    /* border: 1px solid #f2f2f2; */
 }
 
 .workshops form label {
@@ -950,13 +1062,6 @@ p.card-text {
     font-weight: 900;
     font-size: 18px;
 }
-
-.workshops form {
-    color: #000000;
-    font-weight: 700;
-    /* border: 1px solid #f2f2f2; */
-}
-
 
 .btn-inscricoes {
     display: block;
@@ -986,7 +1091,7 @@ p.card-text {
 .inscricao {
     width: 100%;
     height: 100%;
-    background-image: url("https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/09/inscricao.jpg");
+    background-image: url("../imgs/inscricao.jpg");
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -1092,7 +1197,7 @@ div.row.forms {
     font-family: GothamBook, sans-serif;
     color: #000000;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.1rem;
 }
 
 .inscricao form .form-control {
@@ -1111,6 +1216,8 @@ div.row.forms {
     border-color: #ffffff;
     font-weight: 700;
     margin: 0 auto;
+    font-size: 1.7rem;
+
 }
 
 .inscricao form .btn-primary:hover {
@@ -1126,7 +1233,7 @@ div.row.forms {
 
 .custom-file-label::after {
     content: "Anexar foto";
-    -webkit-text-fill-color: #ffffff;
+    /* -webkit-text-fill-color: #ffffff; */
     color: #ffffff;
     background-color: #000000;
 }
@@ -1333,12 +1440,16 @@ input[type=email]::-moz-placeholder {
 /* Regulamento */
 .txt-modal-regulamento {
     padding: 1%;
-    font-size: 0.9rem;
+    font-size: 15px;
+    color: #000000;
+    font-weight: 500;
 }
 
 .modal-footer button a {
     text-decoration: none;
     color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 500;
 }
 
 .modal-footer button {
@@ -1382,7 +1493,7 @@ footer {
 .pg-sucess {
     width: 100%;
     height: 100vh;
-    background-image: url("https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/09/tela-de-sucess.jpg");
+    background-image: url("../imgs/tela-de-sucess.jpg");
     background-attachment: fixed;
     background-position: center;
     background-size: cover;

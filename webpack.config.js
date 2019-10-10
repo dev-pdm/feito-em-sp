@@ -4,6 +4,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin')
 
+const tinyPngWebpackPlugin = require('tinypng-webpack-plugin');
+
 module.exports = {
     mode: modoDev ? 'development' : 'production',
     entry: './src/js/index.js',
@@ -12,7 +14,7 @@ module.exports = {
         path: __dirname + '/public'
     },
     devServer: {
-        contentBase: "./public",
+        contentBase: "./",
         port: 9000
     },
     optimization: {
@@ -27,15 +29,26 @@ module.exports = {
         new HtmlWebpackPlugin({
             template: './index.html',
             filename: 'index.html'
+        }),
+        new tinyPngWebpackPlugin({
+            key:"M38Y2383ZRQ5HF1wXDXwHF41KnqslLwg",
+            ext: ['png', 'jpeg', 'jpg'],//img ext name
         })
     ],
     module: {
-        rules: [{
-            test: /\.css$/,
+        rules: [
+            // {
+            //     "enforce": "pre",
+            //     "test": /\.(js|jsx)$/,
+            //     "exclude": /node_modules/,
+            //     "use": "eslint-loader"
+            // },
+            {
+            test: /\.s?[ac]ss$/,
             use: [
                 MiniCssExtractPlugin.loader,
                 // 'style-loader', // Adiciona CSS a DOM injetando a tag <style>
-                'css-loader' // interpreta @import, url()...
+                'css-loader', // interpreta @import, url()...
                 // 'sass-loader',
             ]
         }, {
