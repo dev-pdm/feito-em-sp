@@ -16,6 +16,55 @@
     }
 }
 
+.btn-dica{
+    color: #ffffff;
+    font-weight: 500;
+    border-color:#ffffff;
+    background-color: #000000;
+}
+
+.btn-dica:hover{
+    color: #698f5b;
+    font-weight: 700;
+    background-color: #ffffff;
+    border-color:#000000; 
+}
+
+
+.destaque-circuito-final{
+    color:#698f5b;
+    font-weight: 900;
+}
+
+@media (min-width: 768px) {
+    .carousel-multi-item-2 .col-md-3 {
+        float: left;
+        width: 25%;
+        max-width: 100%; 
+    } 
+}
+    
+    .carousel-multi-item-2 .card img {
+    border-radius: 2px; 
+}
+
+.fa-angle-right, .fa-angle-left{
+    color: #000000;
+}
+
+.fa-angle-right:hover{
+    color: #ffffff;
+}
+
+.fa-angle-left:hover{
+    color: #ffffff;
+}
+
+.controls-top{
+    display: flex;
+    justify-content: center;
+}
+
 ::-webkit-input-placeholder,
 /* Chrome/Opera/Safari */
 ::-moz-placeholder,
@@ -43,7 +92,6 @@ label .placeholder
 
 html {
     scroll-behavior: smooth;
-    /* overflow-y: scroll; */
 }
 
 body {
@@ -53,14 +101,12 @@ body {
 
 .top-header {
     width: 100%;
-    /* height: 15%; */
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: distribute;
     justify-content: space-around;
     background-color: #292929;
-    /* margin-top: 60px; */
 }
 
 .top-header .img-logo-menu img {
@@ -88,7 +134,6 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    /* margin-top: 10px; */
 }
 
 /* sobreescrevendo css*/
@@ -137,7 +182,6 @@ body {
 .navbar-nav .nav-link {
     padding-right: 0;
     padding-left: 0;
-    /* border-right: 2px solid #fff; */
 }
 
 .nav-item a {
@@ -201,12 +245,10 @@ body {
     color: #ffffff;
     text-align: center;
     width: 100%;
-    /* max-width: 700px; */
     margin: 0 auto;
     margin-top: 100px;
     margin-bottom: 100px;
     padding: 5% 12% 5% 12%;
-    /* background-color: rgb(0, 0, 0, 0.8); */
     background-color: #000000cc;
 }
 
@@ -216,7 +258,16 @@ body {
     line-height: 15px;
 }
 
-
+.titulo-galeria-selecionados{
+    padding: 10px;
+    font-family: GothamBook, sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+    color: #ffffff;
+    text-align: center;
+    margin: 10px;
+    text-shadow: 5px 5px 5px #000000;
+}
 /* Fim Home */
 
 /* Estilo circuito */
@@ -248,7 +299,6 @@ body {
     text-align: center;
     font-weight: 700;
     color: #ffffff;
-    /* max-width: 530px; */
     width: 90%;
     display: block;
     margin: 0 auto;
@@ -278,12 +328,9 @@ body {
 
 .circuito-mapa1 img {
     width: 100%;
-    /* max-width: 1100px; */
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    /* box-shadow: 10px 5px 5px black; */
-    /* margin: 0 auto; */
     margin-left: 6%;
 }
 
@@ -303,47 +350,20 @@ body {
     max-width: 296px;
     display: -ms-grid;
     display: grid;
-    /* margin: 0 auto; */
     color: #ffffff;
     font-size: 1rem;
     background-color: #000000;
     overflow-y: hidden;
+    cursor: pointer;
 }
 
 .table thead th {
-    /* border-bottom: 2px solid #dee2e6; */
     border: none;
 }
 
-thead {
+thead{
     background-color: #659062 !important;
     font-size: 1.7rem;
-}
-
-th a {
-    color: #000000 !important;
-    text-decoration: none;
-    padding-left: 5px;
-    font-size: 1rem;
-}
-
-td a {
-    text-decoration: none;
-    font-weight: 500;
-    color: #ffffff !important;
-    font-size: 1rem;
-}
-
-th a:hover {
-    text-decoration: none;
-    color: #f2f2f2 !important;
-    font-weight: 700;
-}
-
-td a:hover {
-    text-decoration: none;
-    color: #f2f2f2 !important;
-    font-weight: 700;
 }
 
 .name-regioes {
@@ -437,7 +457,6 @@ td a:hover {
     text-align: center;
     font-weight: 700;
     color: #ffffff;
-    /* max-width: 530px; */
     width: 100%;
     display: block;
     margin: 0 auto;
@@ -445,7 +464,7 @@ td a:hover {
 }
 
 .modal-2-10 {
-    background-image: url(../imgs/sao-carlos.jpg);
+    background-image: url(../imgs/sao-carlos.png);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -455,142 +474,128 @@ td a:hover {
 }
 
 .modal-3-10 {
-    background-image: url(../imgs/presidente-prudente.jpg);
+    background-image: url(../imgs/presidente-prudente.png);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    /* padding-top: 60px; */
     padding-bottom: 60px;
 }
 
 .modal-4-10 {
-    background-image: url(../imgs/franca.jpg);
+    background-image: url(../imgs/franca.png);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    /* padding-top: 60px; */
     padding-bottom: 60px;
 }
 
 .modal-5-10 {
-    background-image: url(../imgs/barretos.jpg);
+    background-image: url(../imgs/barretos.png);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    /* padding-top: 60px; */
     padding-bottom: 60px;
 }
 
 .modal-6-10 {
-    background-image: url(../imgs/sjriopreto.jpg);
+    background-image: url(../imgs/sjriopreto.png);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    /* padding-top: 60px; */
     padding-bottom: 60px;
 }
 
 .modal-8-10 {
-    background-image: url(../imgs/aracatuba.jpg);
+    background-image: url(../imgs/aracatuba.png);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    /* padding-top: 60px; */
     padding-bottom: 60px;
 }
 
 .modal-9-10 {
-    background-image: url(../imgs/presidente-prudente.jpg);
+    background-image: url(../imgs/presidente-prudente.png);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    /* padding-top: 60px; */
     padding-bottom: 60px;
 }
 
 .modal-10-10 {
-    background-image: url(../imgs/marilia.jpg);
+    background-image: url(../imgs/marilia.png);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    /* padding-top: 60px; */
     padding-bottom: 60px;
 }
 
 .modal-11-10 {
-    background-image: url(../imgs/bauru.jpg);
+    background-image: url(../imgs/bauru.png);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    /* padding-top: 60px; */
     padding-bottom: 60px;
 }
 
 .modal-12-10 {
-    background-image: url(../imgs/sorocaba.jpg);
+    background-image: url(../imgs/sorocaba.png);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    /* padding-top: 60px; */
     padding-bottom: 60px;
 }
 
 .modal-13-10 {
-    background-image: url(../imgs/campinas.jpg);
+    background-image: url(../imgs/campinas.png);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    /* padding-top: 60px; */
     padding-bottom: 60px;
 }
 
 .modal-15-10 {
-    background-image: url(../imgs/taubate.jpg);
+    background-image: url(../imgs/taubate.png);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    /* padding-top: 60px; */
     padding-bottom: 60px;
 }
 
 .modal-16-10 {
-    background-image: url(../imgs/santos.jpg);
+    background-image: url(../imgs/santos.png);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    /* padding-top: 60px; */
     padding-bottom: 60px;
 }
 
 .modal-17-10 {
-    background-image: url(../imgs/registro.jpg);
+    background-image: url(../imgs/registro.png);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    /* padding-top: 60px; */
     padding-bottom: 60px;
 }
 
 .modal-18-10 {
-    background-image: url(../imgs/sao-bernardo.jpg);
+    background-image: url(../imgs/sao-bernardo.png);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    /* padding-top: 60px; */
     padding-bottom: 60px;
 }
 
@@ -664,7 +669,6 @@ td a:hover {
     display: -ms-flexbox;
     display: flex;
     padding-top: 10px;
-
 }
 
 .box-macros {
@@ -686,7 +690,6 @@ td a:hover {
     font-size: 1.8rem;
     font-weight: 700;
 }
-
 /* Fim circuito */
 
 /* Estilo Shows */
@@ -718,18 +721,29 @@ td a:hover {
     text-align: center;
     font-weight: 700;
     color: #ffffff;
-    /* max-width: 530px; */
     width: 90%;
     display: block;
     margin: 0 auto;
-    margin-top: 60px;
     margin-bottom: 40px;
     padding: 2% 12% 2% 12%;
     background-color: #000000cc;
 }
 
+.box-shows h6{
+    font-family: GothamBook, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 900;
+    color: #ffffff;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 60px;
+    padding: 10px;
+    background-color: #000000cc;
+}
+
 .box-shows .box-programação{
-    /* max-width: 530px; */
     width: 90%;
     display: block;
     margin: 0 auto;
@@ -747,6 +761,27 @@ td a:hover {
     color: #ffffff;
 }
 
+.btn-prog-feira-literaria{
+    margin: 0 auto;
+    display: block;
+    font-size: 1.3rem;
+    background-color: black;
+    color: white;
+    border-color: white;
+    font-weight: 700;
+}
+
+.btn-prog-feira-literaria:hover{
+    background-color: #ffffff;
+    color: #000000;
+    border-color: #000000;
+}
+
+.btn-prog-feira-literaria:active{
+    background-color: #ffffff;
+    color: #000000;
+    border-color: #000000;
+}
 /* Fim Shows */
 
 .masterclass {
@@ -777,7 +812,6 @@ td a:hover {
     text-align: center;
     font-weight: 700;
     color: #ffffff;
-    /* max-width: 530px; */
     width: 100%;
     display: block;
     margin: 0 auto;
@@ -870,7 +904,6 @@ p.card-text {
     text-align: center;
     font-weight: 700;
     color: #ffffff;
-    /* max-width: 530px; */
     width: 100%;
     display: block;
     margin: 0 auto;
@@ -886,13 +919,9 @@ p.card-text {
     text-align: center;
     font-weight: 700;
     color: #ffffff;
-    /* max-width: 530px; */
     width: 100%;
     display: block;
     margin: 0 auto;
-    margin-top: 60px;
-    margin-bottom: 40px;
-    padding: 2% 12% 2% 12%;
     background-color: #000000cc;
 }
 
@@ -926,7 +955,6 @@ p.card-text {
     font-weight: 900;
     color: #ffffff;
     text-align: center;
-    margin: 10px;
     text-shadow: 5px 5px 5px #000000;
 }
 
@@ -936,7 +964,6 @@ p.card-text {
     text-align: center;
     font-weight: 700;
     color: #ffffff;
-    /* max-width: 530px; */
     width: 100%;
     display: block;
     margin: 0 auto;
@@ -980,6 +1007,7 @@ p.card-text {
     border: 5px solid #698f5b;
 }
 
+
 /* Fim selecionados */
 
 /* Estilo workshops */
@@ -1011,7 +1039,6 @@ p.card-text {
     text-align: center;
     font-weight: 700;
     color: #ffffff;
-    /* max-width: 530px; */
     width: 100%;
     display: block;
     margin: 0 auto;
@@ -1048,12 +1075,10 @@ p.card-text {
 
 .workshops form {
     width: 100%;
-    /* max-width: 700px; */
     display: block;
     margin: 0 auto;
     color: #000000;
     font-weight: 700;
-    /* border: 1px solid #f2f2f2; */
 }
 
 .workshops form label {
@@ -1084,7 +1109,6 @@ p.card-text {
     color: #000000;
     border-color: #f2f2f2;
 }
-
 /* Fim workshops */
 
 /* Estilo inscricao */
@@ -1153,7 +1177,6 @@ div.row.forms {
     font-weight: 700;
     border: 3px solid #ffffff;
     font-size: 1.5rem;
-    margin-left: 10px;
 }
 
 .form-produtor button:hover {
@@ -1233,7 +1256,6 @@ div.row.forms {
 
 .custom-file-label::after {
     content: "Anexar foto";
-    /* -webkit-text-fill-color: #ffffff; */
     color: #ffffff;
     background-color: #000000;
 }
@@ -1303,7 +1325,6 @@ input[type=email]::-moz-placeholder {
 }
 
 .modal.fade .modal-dialog {
-    /* width: 100%; */
     max-width: 800px;
 }
 
@@ -1314,7 +1335,7 @@ input[type=email]::-moz-placeholder {
     color: #000000;
 }
 
-.close {
+.close{
     opacity: 1;
     border: 0;
 }
@@ -1439,10 +1460,10 @@ input[type=email]::-moz-placeholder {
 
 /* Regulamento */
 .txt-modal-regulamento {
-    padding: 1%;
     font-size: 15px;
     color: #000000;
     font-weight: 500;
+    padding: 1%;
 }
 
 .modal-footer button a {
@@ -1471,7 +1492,6 @@ input[type=email]::-moz-placeholder {
     color: #000000;
     font-weight: 700;
 }
-
 /* Fim Regulamento */
 
 /* Footer */
@@ -1487,6 +1507,74 @@ footer {
     font-weight: 500;
 }
 
+
+.txt-rodape {
+    width: 100%;
+    background-color: #ffffff;
+}
+.txt-rodape h4 {
+    color: #000000;
+    font-size: 1.3rem;
+    margin: 0 auto;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.rodape-logos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.logos-rodape {
+    width: 100%;
+    max-width: 250px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.logos-img {
+    width: 100%;
+    max-width: 100px;
+    display: block;
+}
+
+.logos-img1 {
+    width: 100%;
+    max-width: 70px;
+    display: block;
+}
+
+.logos-img4 {
+    width: 100%;
+    max-width: 250px;
+    display: block;
+}
+
+.txt-aviso {
+    width: 100%;
+    display: block;
+    background-color: #ffffff;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: center;
+    padding: 5px;
+}
+.txt-aviso p {
+    width: 100%;
+    display: block;
+    background-color: #ffffff;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: center;
+    padding: 5px;
+}
 /* Fim Footer */
 
 /* Pagina de Sucesso */
@@ -1555,5 +1643,4 @@ footer {
     color: #000000;
     text-decoration: none;
 }
-
 /* Fim Pagina de Sucesso */

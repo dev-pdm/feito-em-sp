@@ -32,7 +32,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
     <title>Feito em SP</title>
-
+</head>
 <body>
 
     <!-- Logos -->
@@ -60,7 +60,7 @@
                     <a class="nav-link" aria-label="Circuito" aria-labelledby="Circuito" href="#circuito">Circuito</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" aria-label="Shows" aria-labelledby="Shows" href="#shows">Shows</a>
+                    <a class="nav-link" aria-label="Shows" aria-labelledby="Shows" href="#shows">Atrações</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -91,33 +91,679 @@
     <!-- Home -->
     <section class="home" id="home">
         <div class="box-home">
-            <h1 class="shadow">
-                <p>Feito em SP</p> <br>
-                Uma competição que dá gosto.<br>
-                Um festival para eleger pratos e produtos típicos e saborosos de São Paulo.<br>
-                Etapas regionais em todo o Estado, de 2 a 18 de Outubro, com escolha de 4 finalistas cada,
-                e final no Memorial da América Latina, de 24 a 27 de Outubro.<br>
-                A grande disputa entre os 60 finalistas será grandiosa, com stands, exposição e feira de produtos e
-                comidas,
-                atividades gastronômicas, shows e muitas atrações.
-
-                Feito em SP faz parte da SP Gastronomia, o maior festival do país, com mais de 200 atividades em todo o
-                Estado de São Paulo.
-                Se você tem aquela receitinha deliciosa ou faz produtos que ninguém resiste, bote a mesa e inscreva-se
-                agora.
+            <h1>
+                <p>Feito em SP</p> <br><br>
+                Grande festa dos vencedores do Feito em SP<br>
+                Um programa para toda família<br><br>
+                De 24 a 27 de outubro 2019 - das 11:00 às 20:30<br>
+                Memorial da América Latina<br>
+                Mais de 60 pratos e produtos emblemáticos de todo Estado de São Paulo<br>
+                <strong>ENTRADA GRATUITA / Pratos até 30 reais</strong><br>
+                Espaço infantil com atividades sensoriais e “contação de histórias”<br>
+                Palestras de alimentação gratuitas<br>
+                Feira de Livros de Gastronomia<br>
+                Música ao vivo<br>
+                Acesso pelo portão 6 e 5 – Av. Auro Soares de Moura Andrade, 664<br>
+                Metrô Barra Funda/ Bolsões de Estacionamento  Portão 12 ou rua Tagipuru, 641<br><br>
+                <!-- Botão para acionar modal -->
+                <button type="button" class="btn-dica btn btn-primary" data-toggle="modal" data-target="#modalDica">
+                    Transporte / Estacionamento
+                </button>
             </h1>
+            <div class="modal fade" id="modalDica" tabindex="-1" role="dialog" aria-labelledby="modalDicaTitle" aria-hidden="true">
+                <div class="modal-dialog modal-xl" role="document">
+                    <div class="modal-content modal-xl">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="modalDicaTitle">Transporte</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        </div>
+                        <div class="modal-body">
+                            <h4>Transporte</h4><br>
+                            
+                            <b>Terminal Barra Funda</b><br><br>
+                            
+                            Funcionamento:<br>
+                            04h40 às 0h19 (domingo a sexta)<br>
+                            04h40 às 01h00 (sábados)<br><br>
+                            
+                            <b>Trem e Metrô</b><br><br>
+                            
+                            Estação Palmeiras – Barra Funda<br>
+                            (ao passar a catraca, vá a direita e saia na primeira a esquerda).<br>
+                            *Encontre sua rota de trem e metrô: <a href="http://www.metro.sp.gov.br/sua-viagem/trajeto/" target="_blank">Clique aqui</a><br><br>
+                            
+                            <b>Ônibus</b><br><br>
+                            
+                            Transporte dentro do Município de São Paulo<br>
+                            *Descubra seu caminho no site da SPTM: <a href="http://www.sptrans.com.br/" target="_blank">Clique aqui</a><br>
+                            
+                            Transporte para as regiões metropolitanas de São Paulo, Campinas, Sorocaba, Baixada Santista e Vale do Paraíba e Litoral Norte.<br>
+                            *Encontre sua rota no site da EMTU: <a href="http://www.emtu.sp.gov.br/emtu/itinerarios-e-tarifas.fss" target="_blank">Clique aqui</a><br>
+                            
+                            Rodoviária Barra Funda<br>
+                            
+                            *Encontre as passagens no site oficial: <a href="http://www.metro.sp.gov.br/sua-viagem/trajeto/" target="_blank">Clique aqui</a><br><br>
+
+                            <h4>Estacionamento</h4> <br>
+                            Estacionamento no portão 12 – No Memorial<br>
+                            Estacionamento na Rua Taigipuru, 641 – Particular
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+
+        <!--Carousel Wrapper-->
+        <div>
+            <h2 class="titulo-galeria-selecionados">Veja os pratos dos selescionados 2019:</h2>
+        </div>
+        <div id="multi-item-example" class="carousel slide carousel-multi-item carousel-multi-item-2" data-ride="carousel">
+            <!--Slides-->
+            <div class="carousel-inner" role="listbox">
+                <!--First slide-->
+                <div class="carousel-item active">
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-08-20-12-04.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-08-20-12-47.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-08-20-13-30.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-08-20-14-19.jpg"
+                            alt="">
+                        </div>
+                    </div>
+                    
+                </div>
+                <!--/.First slide-->
+            
+                <!--Second slide-->
+                <div class="carousel-item">
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-08-21-03-45.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-18-21-11-49.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-08-21-04-51.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-08-21-05-52.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                </div>
+                <!--/.Second slide-->
+            
+                <!--Third slide-->
+                <div class="carousel-item">
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-09-19-41-23.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-09-19-41-51.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-09-19-43-17.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-09-19-43-50.jpg"
+                            alt="">
+                        </div>
+                    </div>
+                </div>
+                <!--/.Third slide-->
+
+                <div class="carousel-item">
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-09-19-48-23.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-09-19-48-47.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-09-19-49-23.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-09-19-50-34.jpg"
+                            alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-10-20-59-14.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-10-20-59-40.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-10-21-00-02.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-10-21-02-17.jpg"
+                            alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-10-21-02-43.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-10-21-03-11.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-10-21-03-39.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-11-21-39-49.jpg"
+                            alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-11-21-40-11.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-11-21-40-37.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-11-21-41-00.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-11-21-41-29.jpg"
+                            alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-11-21-42-02.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-11-21-42-29.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-11-21-43-16.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-12-19-08-45.jpg"
+                            alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-12-19-09-11.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-12-19-09-37.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-12-19-10-14.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-12-19-12-46.jpg"
+                            alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-12-19-13-32.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-12-19-16-02.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-12-19-16-31.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-13-20-27-21.jpg"
+                            alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-13-20-28-02.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-13-20-28-34.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-13-20-29-26.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-13-20-32-35.jpg"
+                            alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-13-20-32-55.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-13-20-33-17.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-13-20-33-40.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-15-18-50-36.jpg"
+                            alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-15-18-52-48.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-15-18-53-33.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-15-18-54-40.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-15-18-55-16.jpg"
+                            alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-15-18-57-35.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-15-18-58-59.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-15-19-00-58.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-16-17-27-37.jpg"
+                            alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-16-17-47-19.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-16-17-49-56.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-16-18-03-54.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-16-19-08-18.jpg"
+                            alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-16-19-30-08.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-17-18-23-26.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-17-18-24-50.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-17-18-26-15.jpg"
+                            alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-17-18-27-18.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-17-18-29-30.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-17-18-30-19.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-17-18-31-07.jpg"
+                            alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-17-18-31-54.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-18-18-17-51.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-18-18-18-58.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-18-18-20-23.jpg"
+                            alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-18-18-22-37.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-18-18-23-52.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-18-18-27-23.jpg"
+                            alt="">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/PHOTO-2019-10-18-18-44-47.jpg"
+                            alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <!--/.Slides-->
+
+            <!--Controls-->
+            <div class="controls-top">
+                <a class="black-text" href="#multi-item-example" data-slide="prev"><i class="fas fa-angle-left fa-3x pr-3"></i></a>
+                <a class="black-text" href="#multi-item-example" data-slide="next"><i class="fas fa-angle-right fa-3x pl-3"></i></a>
+            </div>
+            <!--/.Controls-->
+        </div>
+        <!--/.Carousel Wrapper-->
     </section>
 
     <!-- Circuito -->
     <section class="circuito" id="circuito">
         <div class="box-circuito">
             <h2>Circuito</h2>
-            <p class="shadow">
+            <!-- <p >
                 Descubra aqui a qual macrorregião você pertence.
-            </p>
+            </p> -->
         </div>
-        <div class="info-feito row">
+        <!-- <div class="info-feito row">
             <div class="col circuito-mapa1">
                 <img src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/09/mapa-do-circuito4.png" alt="" />
             </div>
@@ -130,87 +776,129 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row" class="btn-regioes-2">
-                                <a href="#" data-toggle="modal" class="text-dark" data-target="#modal-2-10">1</a></th>
-                            <td><a href="#" data-toggle="modal" class="text-white" data-target="#modal-2-10">02/10 - São Carlos</a></td>
-                        </tr>
-                        <tr>
-                            <th scope="row" class="btn-regioes-3"><a href="#" class="text-dark" data-toggle="modal"
-                                    data-target="#modal-3-10">2</a></th>
-                            <td><a href="#" class="text-white" data-toggle="modal" data-target="#modal-3-10">03/10 - Ribeirão Preto</a>
+                            <th scope="row" class="btn-regioes-2 text-dark" data-toggle="modal" data-target="#modal-2-10">
+                                1
+                            </th>
+                            <td scope="row" data-toggle="modal" class="text-white" data-target="#modal-2-10">
+                                02/10 - São Carlos
                             </td>
                         </tr>
                         <tr>
-                            <th scope="row" class="btn-regioes-4"><a href="#" data-toggle="modal"
-                                    data-target="#modal-4-10">3</a></th>
-                            <td><a href="#" data-toggle="modal" data-target="#modal-4-10">04/10 - Franca</a></td>
-                        </tr>
-                        <tr>
-                            <th scope="row" class="btn-regioes-5"><a href="#" data-toggle="modal"
-                                    data-target="#modal-5-10">4</a></th>
-                            <td><a href="#" data-toggle="modal" data-target="#modal-5-10">05/10 - Barretos</a></td>
-                        </tr>
-                        <tr>
-                            <th scope="row" class="btn-regioes-6"><a href="#" data-toggle="modal"
-                                    data-target="#modal-6-10">5</a></th>
-                            <td><a href="#" data-toggle="modal" data-target="#modal-6-10">06/10 - S.J do Rio Preto</a>
+                            <th scope="row" class="btn-regioes-3 text-dark" data-toggle="modal" data-target="#modal-3-10">
+                                2
+                            </th>
+                            <td scope="row" class="text-white" data-toggle="modal" data-target="#modal-3-10">
+                                03/10 - Ribeirão Preto
                             </td>
                         </tr>
                         <tr>
-                            <th scope="row" class="btn-regioes-8"><a href="#" data-toggle="modal"
-                                    data-target="#modal-8-10">6</a></th>
-                            <td><a href="#" data-toggle="modal" data-target="#modal-8-10">08/10 - Araçatuba</a></td>
+                            <th scope="row" class="btn-regioes-4 text-dark" data-toggle="modal" data-target="#modal-4-10">
+                                3
+                            </th>
+                            <td scope="row" class="text-white" data-toggle="modal" data-target="#modal-4-10">
+                                04/10 - Franca
+                            </td>
                         </tr>
                         <tr>
-                            <th scope="row" class="btn-regioes-9"><a href="#" data-toggle="modal"
-                                    data-target="#modal-9-10">7</a></th>
-                            <td><a href="#" data-toggle="modal" data-target="#modal-9-10">09/10 - Presidente
-                                    Prudente</a></td>
+                            <th scope="row" class="btn-regioes-5 text-dark" data-toggle="modal" data-target="#modal-5-10">
+                                4
+                            </th>
+                            <td scope="row" data-toggle="modal" data-target="#modal-5-10">
+                                05/10 - Barretos
+                            </td>
                         </tr>
                         <tr>
-                            <th scope="row" class="btn-regioes-10"><a href="#" data-toggle="modal"
-                                    data-target="#modal-10-10">8</a></th>
-                            <td><a href="#" data-toggle="modal" data-target="#modal-10-10">10/10 - Marília</a></td>
+                            <th scope="row" class="btn-regioes-6 text-dark" data-toggle="modal" data-target="#modal-6-10">
+                                5
+                            </th>
+                            <td scope="row" data-toggle="modal" data-target="#modal-6-10">
+                                06/10 - S.J do Rio Preto
+                            </td>
                         </tr>
                         <tr>
-                            <th scope="row" class="btn-regioes-11"><a href="#" data-toggle="modal"
-                                    data-target="#modal-11-10">9</a></th>
-                            <td><a href="#" data-toggle="modal" data-target="#modal-11-10">11/10 - Bauru</a></td>
+                            <th scope="row" class="btn-regioes-8 text-dark" data-toggle="modal" data-target="#modal-8-10">
+                                6
+                            </th>
+                            <td scope="row" data-toggle="modal" data-target="#modal-8-10">
+                                08/10 - Araçatuba
+                            </td>
                         </tr>
                         <tr>
-                            <th scope="row" class="btn-regioes-12"><a href="#" data-toggle="modal"
-                                    data-target="#modal-12-10">10</a></th>
-                            <td><a href="#" data-toggle="modal" data-target="#modal-12-10">12/10 - Sorocaba</a></td>
+                            <th scope="row" class="btn-regioes-9 text-dark" data-toggle="modal" data-target="#modal-9-10">
+                                7
+                            </th>
+                            <td scope="row" data-toggle="modal" data-target="#modal-9-10">
+                                09/10 - Presidente Prudente
+                            </td>
                         </tr>
                         <tr>
-                            <th scope="row" class=" btn-regioes-13"><a href="#" data-toggle="modal"
-                                    data-target="#modal-13-10">11</a></th>
-                            <td><a href="#" data-toggle="modal" aria-label="13/10 - Campinas" aria-labelledby="13/10 - Campinas" data-target="#modal-13-10">13/10 - Campinas</a></td>
+                            <th scope="row" class="btn-regioes-10 text-dark" data-toggle="modal" data-target="#modal-10-10">
+                                8
+                            </th>
+                            <td scope="row" data-toggle="modal" data-target="#modal-10-10">
+                                10/10 - Marília
+                            </td>
                         </tr>
                         <tr>
-                            <th scope="row" class="btn-regioes-15"><a href="#" data-toggle="modal"
-                                    data-target="#modal-15-10">12</a></th>
-                            <td><a href="#" data-toggle="modal" data-target="#modal-15-10">15/10 - Taubaté</a></td>
+                            <th scope="row" class="btn-regioes-11 text-dark" data-toggle="modal" data-target="#modal-11-10">
+                                9
+                            </th>
+                            <td data-toggle="modal" data-target="#modal-11-10">
+                                11/10 - Bauru
+                            </td>
                         </tr>
                         <tr>
-                            <th scope="row" class="btn-regioes-16"><a href="#" data-toggle="modal"
-                                    data-target="#modal-16-10">13</a></th>
-                            <td><a href="#" data-toggle="modal" data-target="#modal-16-10">16/10 - Santos</a></td>
+                            <th scope="row" class="btn-regioes-12 text-dark" data-toggle="modal" data-target="#modal-12-10">
+                                10
+                            </th>
+                            <td scope="row" data-toggle="modal" data-target="#modal-12-10">
+                                12/10 - Sorocaba
+                            </td>
                         </tr>
                         <tr>
-                            <th scope="row" class="btn-regioes-17"><a href="#" data-toggle="modal"
-                                    data-target="#modal-17-10">14</a></th>
-                            <td><a href="#" data-toggle="modal" data-target="#modal-17-10">17/10 - Registro</a></td>
+                            <th scope="row" class="btn-regioes-13 text-dark" data-toggle="modal" data-target="#modal-13-10">
+                                11
+                            </th>
+                            <td scope="row" data-toggle="modal" aria-label="13/10 - Campinas" aria-labelledby="13/10 - Campinas" data-target="#modal-13-10">
+                                13/10 - Campinas
+                            </td>
                         </tr>
                         <tr>
-                            <th scope="row" class="btn-regioes-18"><a href="#" data-toggle="modal"
-                                    data-target="#modal-18-10">15</a></th>
-                            <td><a href="#" data-toggle="modal" data-target="#modal-18-10">18/10 - São Bernardo</a></td>
+                            <th scope="row" class="btn-regioes-15 text-dark" data-toggle="modal" data-target="#modal-15-10">
+                                12
+                            </th>
+                            <td scope="row" data-toggle="modal" data-target="#modal-15-10">
+                                15/10 - Taubaté
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="btn-regioes-16 text-dark" data-toggle="modal" data-target="#modal-16-10">
+                                13
+                            </th>
+                            <td scope="row" data-toggle="modal" data-target="#modal-16-10">
+                                16/10 - Santos
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="btn-regioes-17 text-dark" data-toggle="modal" data-target="#modal-17-10">
+                                14
+                            </th>
+                            <td scope="row" data-toggle="modal" data-target="#modal-17-10">
+                                17/10 - Registro
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="btn-regioes-18 text-dark" data-toggle="modal" data-target="#modal-18-10">
+                                15
+                            </th>
+                            <td scope="row" data-toggle="modal" data-target="#modal-18-10">
+                                18/10 - São Bernardo
+                            </td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-        </div>
+        </div> -->
 
         <div class="box-macros">
             <p>
@@ -222,7 +910,6 @@
                 <h4>Ribeirão Preto - 03/10/2019 - 17h às 22h</h4>
                 Local: Shopping Iguatemi<br>
                 Endereço: Av. Luiz Eduardo Toledo Prado, 900
-
             </p>
             <p>
                 <h4>Franca - 04/10/2019 - 17h às 22h</h4>
@@ -289,6 +976,11 @@
                 Local: Pavilhão Vera Cruz<br>
                 Endereço: Av.Lucas Nogueira Garcéz, 856 - Centro
             </p>
+            <p>
+                <h4 class="destaque-circuito-final">Final - 24 à 27 de outubro - 11h às 20h30</h4>
+                Local: Memorial da América Latina | portão 5 e 6<br>
+                Endereço: Av. Auro Soares de Moura Andrade, 664 – 01156-001 – Barra Funda – São Paulo SP
+            </p>
         </div>
 
         <!-- Modal São Carlos -->
@@ -343,7 +1035,7 @@
                                     <li>Trabiju</li>
                                 </ul>
                             </div>
-                            <div class="col text-modal-form">
+                            <!-- <div class="col text-modal-form">
                                 <h5>Você tem restaurante ou é Produtor ?</h5>
                                 <div class="btn-modal-cidade">
                                     <button type="button" class="btn btn-primary" data-toggle="modal"
@@ -355,7 +1047,7 @@
                                         Sou Produtor
                                     </button>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -414,7 +1106,7 @@
 
                                 </ul>
                             </div>
-                            <div class="col text-modal-form">
+                            <!-- <div class="col text-modal-form">
                                 <h5>Você tem restaurante ou é Produtor ?</h5>
                                 <div class="btn-modal-cidade">
                                     <button type="button" class="btn btn-primary" data-toggle="modal"
@@ -426,7 +1118,7 @@
                                         Sou Produtor
                                     </button>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -483,7 +1175,7 @@
 
                                 </ul>
                             </div>
-                            <div class="col text-modal-form">
+                            <!-- <div class="col text-modal-form">
                                 <h5>Você tem restaurante ou é Produtor ?</h5>
                                 <div class="btn-modal-cidade">
                                     <button type="button" class="btn btn-primary" data-toggle="modal"
@@ -495,7 +1187,7 @@
                                         Sou Produtor
                                     </button>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -549,7 +1241,7 @@
 
                                 </ul>
                             </div>
-                            <div class="col text-modal-form">
+                            <!-- <div class="col text-modal-form">
                                 <h5>Você tem restaurante ou é Produtor ?</h5>
                                 <div class="btn-modal-cidade">
                                     <button type="button" class="btn btn-primary" data-toggle="modal"
@@ -561,7 +1253,7 @@
                                         Sou Produtor
                                     </button>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -691,7 +1383,7 @@
 
                                 </ul>
                             </div>
-                            <div class="col text-modal-form">
+                            <!-- <div class="col text-modal-form">
                                 <h5>Você tem restaurante ou é Produtor ?</h5>
                                 <div class="btn-modal-cidade">
                                     <button type="button" class="btn btn-primary" data-toggle="modal"
@@ -703,7 +1395,7 @@
                                         Sou Produtor
                                     </button>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -781,7 +1473,7 @@
 
                                 </ul>
                             </div>
-                            <div class="col text-modal-form">
+                            <!-- <div class="col text-modal-form">
                                 <h5>Você tem restaurante ou é Produtor ?</h5>
                                 <div class="btn-modal-cidade">
                                     <button type="button" class="btn btn-primary" data-toggle="modal"
@@ -793,7 +1485,7 @@
                                         Sou Produtor
                                     </button>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -880,7 +1572,7 @@
                                     <li>Tupi Paulista</li>
                                 </ul>
                             </div>
-                            <div class="col text-modal-form">
+                            <!-- <div class="col text-modal-form">
                                 <h5>Você tem restaurante ou é Produtor ?</h5>
                                 <div class="btn-modal-cidade">
                                     <button type="button" class="btn btn-primary" data-toggle="modal"
@@ -892,7 +1584,7 @@
                                         Sou Produtor
                                     </button>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -977,7 +1669,7 @@
                                     <li>Vera Cruz</li>
                                 </ul>
                             </div>
-                            <div class="col text-modal-form">
+                            <!-- <div class="col text-modal-form">
                                 <h5>Você tem restaurante ou é Produtor ?</h5>
                                 <div class="btn-modal-cidade">
                                     <button type="button" class="btn btn-primary" data-toggle="modal"
@@ -989,7 +1681,7 @@
                                         Sou Produtor
                                     </button>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -1062,7 +1754,7 @@
 
                                 </ul>
                             </div>
-                            <div class="col text-modal-form">
+                            <!-- <div class="col text-modal-form">
                                 <h5>Você tem restaurante ou é Produtor ?</h5>
                                 <div class="btn-modal-cidade">
                                     <button type="button" class="btn btn-primary" data-toggle="modal"
@@ -1074,7 +1766,7 @@
                                         Sou Produtor
                                     </button>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -1180,7 +1872,7 @@
                                     <li>Votorantim</li>
                                 </ul>
                             </div>
-                            <div class="col text-modal-form">
+                            <!-- <div class="col text-modal-form">
                                 <h5>Você tem restaurante ou é Produtor ?</h5>
                                 <div class="btn-modal-cidade">
                                     <button type="button" class="btn btn-primary" data-toggle="modal"
@@ -1192,7 +1884,7 @@
                                         Sou Produtor
                                     </button>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -1316,7 +2008,7 @@
                                     <li>Vinhedo</li>
                                 </ul>
                             </div>
-                            <div class="col text-modal-form">
+                            <!-- <div class="col text-modal-form">
                                 <h5>Você tem restaurante ou é Produtor ?</h5>
                                 <div class="btn-modal-cidade">
                                     <button type="button" class="btn btn-primary" data-toggle="modal"
@@ -1328,7 +2020,7 @@
                                         Sou Produtor
                                     </button>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -1401,7 +2093,7 @@
                                     <li>Ubatuba</li>
                                 </ul>
                             </div>
-                            <div class="col text-modal-form">
+                            <!-- <div class="col text-modal-form">
                                 <h5>Você tem restaurante ou é Produtor ?</h5>
                                 <div class="btn-modal-cidade">
                                     <button type="button" class="btn btn-primary" data-toggle="modal"
@@ -1413,7 +2105,7 @@
                                         Sou Produtor
                                     </button>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -1456,7 +2148,7 @@
                                     <li>São Vicente</li>
                                 </ul>
                             </div>
-                            <div class="col text-modal-form">
+                            <!-- <div class="col text-modal-form">
                                 <h5>Você tem restaurante ou é Produtor ?</h5>
                                 <div class="btn-modal-cidade">
                                     <button type="button" class="btn btn-primary" data-toggle="modal"
@@ -1468,7 +2160,7 @@
                                         Sou Produtor
                                     </button>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -1523,7 +2215,7 @@
                                     <li>Sete Barras</li>
                                 </ul>
                             </div>
-                            <div class="col text-modal-form">
+                            <!-- <div class="col text-modal-form">
                                 <h5>Você tem restaurante ou é Produtor ?</h5>
                                 <div class="btn-modal-cidade">
                                     <button type="button" class="btn btn-primary" data-toggle="modal"
@@ -1535,7 +2227,7 @@
                                         Sou Produtor
                                     </button>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -1608,7 +2300,7 @@
                                     <li>Vargem Grande Paulista </li>
                                 </ul>
                             </div>
-                            <div class="col text-modal-form">
+                            <!-- <div class="col text-modal-form">
                                 <h5>Você tem restaurante ou é Produtor ?</h5>
                                 <div class="btn-modal-cidade">
                                     <button type="button" class="btn btn-primary" data-toggle="modal"
@@ -1620,7 +2312,7 @@
                                         Sou Produtor
                                     </button>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -1628,11 +2320,216 @@
         </div>
     </section>
 
-    <!-- Shows -->
+    <!-- Atrações -->
     <section class="shows" id="shows">
         <div class="box-shows">
-            <h2>Shows</h2>
-            <p class="shadow">
+            <h2>Atrações</h2>
+            
+            <div class="container-fluid">
+                <div class="row"> 
+                    <h6>FLIG</h6>
+                    <p>
+                        A inédita Feira Literária de Gastronomia leva ao Memorial
+                        da América Latina editoras
+                        que publicam gastronomia no Brasil. A feira
+                        inclui três atrações imperdíveis: as sessões
+                        de autógrafos com grandes chefs autores;
+                        o Sarau Poesias de Comer, em que
+                        renomados chefs declamam poemas celebrados
+                        sobre alimentação; e a Feirinha de Letras,
+                        voltada do público infantil com
+                        leituras mediadas e contação de histórias.<br><br>
+
+                        Entrada Gratuita<br><br>
+                        
+                        Confira as Atrações:
+                    </p>
+                </div>
+                <div class="row mt-3">   
+                    <button type="button" class="btn-prog-feira-literaria btn btn-primary" data-toggle="modal" data-target="#editoras-feira">Editoras participantes</button>
+                </div>
+                <div class="row mt-3">   
+                    <button type="button" class="btn-prog-feira-literaria btn btn-primary" data-toggle="modal" data-target="#prog-feirinha-literaria">Programação Feirinha de Letras</button>
+                </div>
+                <div class="row mt-3">   
+                    <button type="button" class="btn-prog-feira-literaria btn btn-primary" data-toggle="modal" data-target="#prog-feira-literaria">Programação FLIG</button>
+                </div>
+                <!-- <div class="row mt-3">   
+                    <button type="button" class="btn-prog-feira-literaria btn btn-primary" data-toggle="modal" data-target="#prog-autografos">Programação Sessão de Autógrafos</button>
+                </div>
+                <div class="row mt-3">   
+                    <button type="button" class="btn-prog-feira-literaria btn btn-primary" data-toggle="modal" data-target="#prog-sarau">Programação do Sarau</button>
+                </div> -->
+            </div>
+
+            <!-- Editoras Participantes -->
+            <div class="modal fade" id="editoras-feira" tabindex="-1" role="dialog" aria-labelledby="editoras-feira-titulo" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="editoras-feira-titulo">Editoras participantes</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        </div>
+                        <div class="modal-body">
+                            <!-- <h3>Editoras participantes</h3> -->
+                            &bull; Alaúde<br>
+                            &bull; Arolê Cultural<br>
+                            &bull; Dash<br>
+                            &bull; Global<br>
+                            &bull; Lafonte<br>
+                            &bull; Melhoramentos<br>
+                            &bull; Nacional<br>
+                            &bull; Publifolha<br>
+                            &bull; Senac<br>
+                            &bull; Tapioca<br>
+                            &bull; Globo<br>
+                            &bull; Alameda<br>
+                            &bull; Boccato<br>
+                            &bull; CookLovers<br>
+                            &bull; Loyola<br>
+                            &bull; Girassol<br>
+                            &bull; Sebo Gastronômico<br>
+                            &bull; Gaia<br>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Programação Feira Literária -->
+            <div class="modal fade" id="prog-feirinha-literaria" tabindex="-1" role="dialog" aria-labelledby="pro-feirinha-titulo" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="pro-feirinha-titulo">Feirinha Literária</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        </div>
+                        <div class="modal-body">
+                            <h3>Sábado 26/10</h3>
+                            &bull; <b>14h</b> | Contação de Histórias<br>
+                            &bull; <b>16h</b> | Contação de Histórias<br>
+                            &bull; <b>11h até 19h</b> | Feira Livre de Degustação de Livros<br>
+                            <hr>
+                            <h3>Domingo 27/10</h3>
+                            &bull; <b>12h</b> | Contação de Histórias<br>
+                            &bull; <b>14h</b> | Contação de Histórias<br>
+                            &bull; <b>16h</b> | Contação de Histórias<br>
+                            &bull; <b>11h até 19h</b> | Feira Livre de Degustação de Livros<br>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Programação FLIG -->
+            <div class="modal fade" id="prog-feira-literaria" tabindex="-1" role="dialog" aria-labelledby="pro-feira-titulo" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="pro-feira-titulo">FLIG</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        </div>
+                        <div class="modal-body">
+                            <h3>Quinta 24/10</h3>
+                            &bull; <b>19h30</b> | Autógrafo com  Sandra Marina Witkowski Autores de Cozinhe com os Monges<br>
+                            <hr>
+                            <h3>Sexta 25/10</h3>
+                            &bull; <b>18h30</b> | Dom João Batista, do Mosteiro São Bento, dará uma palestra 
+                            sobre a Espiritualidade na Alimentação<br>
+                            <hr>
+                            <h3>Sábado 26/10</h3>
+                            &bull; <b>14h às 14h30</b> | Visita comentada à Expo Menus Históricos com André Boccato
+                            O ponto de encontro é na própria amostra. a entrada é franca.<br>
+                            &bull; <b>15h às 17h</b> | mesa coletiva e Sessões de autógrafos com autores 
+                            de gastronomia: Daniel Bork , Katia Cardoso, Natália Werutsky, 
+                            Roberta Malta Saldanha, João Almeida, Leandro Dias e André Fronza.<br>
+                            <hr>
+                            <h3>Domingo 27/10</h3>
+                            &bull; <b>12h</b> | Palestras com o autor Carlos Ribeiro<br>
+                            &bull; <b>12h30</b> | Palestras com o autor Breno Lerner<br>
+                            &bull; <b>13h</b> | Palestras com o autor J. A. Dias Lopes<br>
+                            &bull; <b>14h</b> | Palestras com os autores Guta Chaves e Dolores Freixo<br>
+                            &bull; <b>15h</b> | Sarau Poético Gastronômico 
+                            leitura de poemas que falam de comida, com Danielle Dahoui, 
+                            Carole Crema, Angélica Vitali, Rose White, Ivan Achcar e André Boccato*, acompanhados do som do músico Sérgio Gama, 
+                            interpretando canções que tenham alimento como tema<br>
+                            &bull; <b>17h</b> | Palestras com a autora Joana Monteleone<br>
+                            &bull; <b>17h30</b> | Palestras com o autor Gil Gondim<br><br>
+                            <b>*Após cada palestra os autores se dirigem para mesa de autógrafos ao lado do auditório Colmeia.</b>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Programação Sessão de Autógrafos -->
+            <!-- <div class="modal fade" id="prog-autografos" tabindex="-1" role="dialog" aria-labelledby="pro-autografos-titulo" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="pro-autografos-titulo">Sessão de Autógrafos</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        </div>
+                        <div class="modal-body">
+                            <h3>Sábado 26/10 | 14h às 17h</h3>
+                            &bull; 50 COMIDINHAS VEGANAS, 50 DOCES VEGANOS, 50 MARMITAS VEGANAS, 50 PETISCOS VEGANOS, de Katia Cardoso<br>
+                            &bull; A COZINHA DE DANIEL BORK, de Daniel Bork<br>
+                            &bull; COZINHANDO EM FAMÍLIA, de Natália Werutsky<br>
+                            &bull; CULINÁRIA BRASILEIRA, MUITO PRAZER, de Roberta Malta Saldanha<br>
+                            &bull; OS SEGREDOS DA CACHAÇA, de João Almeida e Leandro Dias<br>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+            <!-- Programação Sarau Poesias de Comer -->
+            <!-- <div class="modal fade" id="prog-sarau" tabindex="-1" role="dialog" aria-labelledby="pro-sarau-titulo" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="pro-sarau-titulo">Sarau Poesias de Comer</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        </div>
+                        <div class="modal-body">
+                            <h3>Domingo 27/10 | Horário: 15h</h3>
+                            O Sarau Poesias de Comer é um inédito encontro de chefs que farão leitura de poemas 
+                            de grandes nomes da literatura onde o alimento é o tema. Os chefs convidados 
+                            Danielle Dahoui, Carole Crema, Rose White, Angélica Vitalli, Ivan Achcar e André Boccato 
+                            lerão textos de Drummond, Cora Coralina, Pablo Neruda, Rubem Alves, Renata Vanzetto, 
+                            Rose White e Monteiro Lobato.<br>
+
+                            A atividade é entremeada por músicas intepretadas por Sérgio Gama, do grupo 
+                            Premeditando o Breque.<br><br> 
+
+                            <b>Local:</b> Auditório da Biblioteca Latino-Americana, no Memorial da América Latina<br>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+            <p class="mt-5">
                 A união perfeita: música + gastronomia. Os grandes nomes da MPB estarão no Feito em SP.<br>
                 Djs novos talentos começam agitando a festa a partir das 18h<br>
                 Show começa as 20h
@@ -1752,13 +2649,13 @@
     <section class="masterclass" id="masterclass">
         <div class="box-masterclass">
             <h2>Masterclass</h2>
-            <p class="box-masterclass-p shadow">
+            <p class="box-masterclass-p">
                 Em cada Cidade Anfitriã, um Chef-Padrinho ensina técnicas e receitas com produtos regionais.
             </p>
-            <button type="button" class="btn-inscricoes btn btn-primary" data-toggle="modal"
+            <!-- <button type="button" class="btn-inscricoes btn btn-primary" data-toggle="modal"
                 data-target="#modalInscricaoMasterclass">
                 Inscrição para a Masterclass
-            </button>
+            </button> -->
 
             <!-- Modal Incrição para a Masterclass -->
             <div class="modal fade" id="modalInscricaoMasterclass" tabindex="-1" role="dialog"
@@ -2294,7 +3191,7 @@
                             Etapa: Sorocaba<br>
                             Data: 12/10/2019 18:30<br>
                             Local: Parque tecnologico de Sorocaba<br>
-                            Endereço: Av.Itavuvu, 11777 - Jardim Santa Cecilia
+                            Endereço: Av.Itavuvu, 11777 - Jardim Santa Cecilia<br><br>
                         </p>
                         <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#chefEtapa10">Confira o
                             perfil</a>
@@ -2393,7 +3290,7 @@
                             Etapa: Taubaté<br>
                             Data: 15/10/2019 18:30<br>
                             Local: Avenida do Povo <br>
-                            Endereço: Av. Professsor Walter Taumaturgo, 101 - Jardim das Nações
+                            Endereço: Av. Professsor Walter Taumaturgo, 101 - Jardim das Nações<br><br>
                         </p>
                         <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#chefEtapa12">Confira o
                             perfil</a>
@@ -2578,16 +3475,15 @@
     <section class="aula-Tecnica" id="aula-Tecnica">
         <div class="box-aula-tecnica">
             <h2>Aulas Técnicas</h2>
-            <p class="box-aula-Tecnica-p shadow">
+            <p class="box-aula-Tecnica-p">
                 Produção sustentável de alimentos, mercado consumidor e alimentação segura.
-                <!-- Impulsione seus negócios com aulas técnicas de empreendedorismo, gestão ou produção. -->
             </p>
-            <button type="button" class="btn-inscricoes btn btn-primary" data-toggle="modal"
+            <!-- <button type="button" class="btn-inscricoes btn btn-primary" data-toggle="modal"
                 data-target="#modalInscricaoAulaTecnica">
                 Inscrição para a Aula Técnica
-            </button>
+            </button> -->
 
-            <div class="box-aula-tecnica-prog">
+            <div class="box-aula-tecnica-prog pt-5 pb-5 mt-5">
                 <h4>Aula dia 02/10 - Horário: 17:30 - São Carlos</h4>
                 <p>
                     EDR Araraquara<br>
@@ -2647,7 +3543,7 @@
                         Mauro Roberto Castellani<br>
                         edr.sorocaba@cati.sp.gov.br<br>
                 </p>
-                <h4>Aula dia 13/10 - Horário: 17:30 - Sorocaba</h4>
+                <h4>Aula dia 13/10 - Horário: 17:30 - Campinas</h4>
                 <p>
                     EDR Campinas <br>
                     Rodrigo Baccan<br>
@@ -2659,17 +3555,17 @@
                     Haley Silva de Carvalho<br>
                     edr.pinda@cati.sp.gov.br
                 </p>
-                <h4>Aula dia 17/10 - Horário: 17:30 - Registro</h4>
-                <p>
-                    EDR Registro<br> 
-                    Antonio Eduardo Sodrzeieski<br>
-                    edr.registro@cati.sp.gov.br
-                </p>
                 <h4>Aula dia 16/10 - Horário: 17:30 - Santos</h4>
                 <p>
                     EDR São Paulo<br>
                     Edna Ferreira Maddarena Lopez<br>
                     edr.saopaulo@cati.sp.gov.br
+                </p>
+                <h4>Aula dia 17/10 - Horário: 17:30 - Registro</h4>
+                <p>
+                    EDR Registro<br> 
+                    Antonio Eduardo Sodrzeieski<br>
+                    edr.registro@cati.sp.gov.br
                 </p>
                 <h4>Aula dia 18/10 - Horário: 17:30 - São Bernardo do Campo</h4>
                 <p>
@@ -2775,17 +3671,20 @@
     <section class="inscricao" id="inscricao">
         <div class="box-inscricao">
             <h2>Inscrição</h2>
-            <p class="shadow">
+            <p>
                 Mostre para todo o Brasil o prato ou o produto único que sua empresa produz no Estado de São Paulo.
                 Inscreva-se aqui.
+            </p>
+            <p>
+                Inscrições encerradas.
             </p>
         </div>
         <div class="row forms">
             <div class="form-restaurante">
                 <!-- Botão para acionar modal -->
-                <button type="button" class="btn-form1 btn btn-primary" data-toggle="modal" data-target="#modalForm1">
+                <!-- <button type="button" class="btn-form1 btn btn-primary" data-toggle="modal" data-target="#modalForm1">
                     Tenho Restaurante
-                </button>
+                </button> -->
 
                 <!-- Modal Restaurante -->
                 <div class="modal fade" id="modalForm1" tabindex="-1" role="dialog"
@@ -3089,9 +3988,9 @@ O participante declara não empregar menor e não ser servidor público do Estad
             </div>
             <div class="form-produtor">
                 <!-- Botão para acionar modal -->
-                <button type="button" class="btn-form2 btn btn-primary" data-toggle="modal" data-target="#modalForm2">
+                <!-- <button type="button" class="btn-form2 btn btn-primary" data-toggle="modal" data-target="#modalForm2">
                     Sou Produtor
-                </button>
+                </button> -->
 
                 <!-- Modal Produtor -->
                 <div class="modal fade" id="modalForm2" tabindex="-1" role="dialog"
@@ -3435,10 +4334,9 @@ O participante declara não empregar menor e não ser servidor público do Estad
     </section>
 
     <!-- Regulamento -->
-    <div class="modal fade" id="regulamentoModalTxt" tabindex="-1" role="dialog" aria-labelledby="regulamentoModalTitle"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
+    <div class="modal fade" id="regulamentoModalTxt" tabindex="-1" role="dialog" aria-labelledby="regulamentoModalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content modal-lg">
                 <div class="modal-header">
                     <h5 class="modal-title" id="regulamentoModalTitle">Regulamento Feito em SP</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -3683,8 +4581,8 @@ O participante declara não empregar menor e não ser servidor público do Estad
     <!-- Selecionados -->
     <section class="selecionados" id="selecionados">
         <div class="box-selecionados">
-            <h2>Selecionados</h2>
-            <p class="box-selecionados-p shadow">
+            <h2 class="mt-3 mb-3">Selecionados</h2>
+            <p class="box-selecionados-p">
                 Quer saber quem vai representar a sua região? Confira:
             </p>
 
@@ -4365,22 +5263,24 @@ O participante declara não empregar menor e não ser servidor público do Estad
                         </div>
                     </div>
                     <div class="card">
-                        <div class="card-body">
+                        <div class="card-body selecionados-etapa">
                             <h5 class="card-title">Restaurante</h5>
                             <p class="selecionados-etapa-txt">
                                 Estabelecimento: Restaurante Don Mantelli<br>
                                 Cidade: Marília<br>
                                 Prato: Costelinha ao Molho Barbecue
+                                <h4 class="selecionados-etapa-txt-h4">Finalista!</h4>
                             </p>
                         </div>
                     </div>
                     <div class="card">
-                        <div class="card-body">
+                        <div class="card-body selecionados-etapa">
                             <h5 class="card-title">Restaurante</h5>
                             <p class="selecionados-etapa-txt">
                                 Estabelecimento: Gregory<br>
                                 Cidade: Paraguaçu Paulista<br>
                                 Prato: Ravioli de Tambaqui com Costelinha de Pacu no Sous-Vide
+                                <h4 class="selecionados-etapa-txt-h4">Finalista!</h4>
                             </p>
                         </div>
                     </div>
@@ -4417,22 +5317,24 @@ O participante declara não empregar menor e não ser servidor público do Estad
                         </div>
                     </div>
                     <div class="card">
-                        <div class="card-body">
+                        <div class="card-body selecionados-etapa">
                             <h5 class="card-title">Produtor</h5>
                             <p class="selecionados-etapa-txt">
                                 Produtor: Sítio Horizonte Azul<br>
                                 Cidade: Marília<br>
                                 Produto: Queijo Meia Cura de Azeitona
+                                <h4 class="selecionados-etapa-txt-h4">Finalista!</h4>
                             </p>
                         </div>
                     </div>
                     <div class="card">
-                        <div class="card-body">
+                        <div class="card-body selecionados-etapa">
                             <h5 class="card-title">Produtor</h5>
                             <p class="selecionados-etapa-txt">
                                 Produtor: Gobeche Chocolates<br>
                                 Cidade: Santa Cruz do Rio Pardo<br>
                                 Produto: Creme de Cacau 0% Açucar, 0% Lactose
+                                <h4 class="selecionados-etapa-txt-h4">Finalista!</h4>
                             </p>
                         </div>
                     </div>
@@ -4465,33 +5367,36 @@ O participante declara não empregar menor e não ser servidor público do Estad
                         </div>
                     </div>
                     <div class="card">
-                        <div class="card-body">
+                        <div class="card-body selecionados-etapa">
                             <h5 class="card-title">Restaurante</h5>
                             <p class="selecionados-etapa-txt">
                                 Estabelecimento: Raízes - Restaurante Rural<br>
                                 Cidade: Bauru<br>
                                 Prato: Sanduiche de Costela Bovina
+                                <h4 class="selecionados-etapa-txt-h4">Finalista!</h4>
                             </p>
                         </div>
                     </div>
                     <div class="card">
-                        <div class="card-body">
+                        <div class="card-body selecionados-etapa">
                             <h5 class="card-title">Restaurante</h5>
                             <p class="selecionados-etapa-txt">
                                 Estabelecimento: Inoru Sorveteria<br>
                                 Cidade: Bauru<br>
                                 Prato: Sanduiche Bauru de Sorvete
+                                <h4 class="selecionados-etapa-txt-h4">Finalista!</h4>
                             </p>
                         </div>
                     </div>
 
                     <div class="card">
-                        <div class="card-body">
+                        <div class="card-body selecionados-etapa">
                             <h5 class="card-title">Produtor</h5>
                             <p class="selecionados-etapa-txt">
                                 Produtor: Doces Nayá<br>
                                 Cidade: Agudos<br>
                                 Produto: Cocada Paulista
+                                <h4 class="selecionados-etapa-txt-h4">Finalista!</h4>
                             </p>
                         </div>
                     </div>
@@ -4517,12 +5422,13 @@ O participante declara não empregar menor e não ser servidor público do Estad
                         </div>
                     </div>
                     <div class="card">
-                        <div class="card-body">
+                        <div class="card-body selecionados-etapa">
                             <h5 class="card-title">Produtor</h5>
                             <p class="selecionados-etapa-txt">
                                 Produtor: Apiário Açucena da Serra<br>
                                 Cidade: Agudos<br>
                                 Produto: Mel em Favo
+                                <h4 class="selecionados-etapa-txt-h4">Finalista!</h4>
                             </p>
                         </div>
                     </div>
@@ -4555,22 +5461,24 @@ O participante declara não empregar menor e não ser servidor público do Estad
                         </div>
                     </div>
                     <div class="card">
-                        <div class="card-body">
+                        <div class="card-body selecionados-etapa">
                             <h5 class="card-title">Restaurante</h5>
                             <p class="selecionados-etapa-txt">
                                 Estabelecimento: Scallet Restaurante e Pizzaria<br>
                                 Cidade: Salto<br>
                                 Prato: Empada Frita
+                                <h4 class="selecionados-etapa-txt-h4">Finalista!</h4>
                             </p>
                         </div>
                     </div>
                     <div class="card">
-                        <div class="card-body">
+                        <div class="card-body selecionados-etapa">
                             <h5 class="card-title">Restaurante</h5>
                             <p class="selecionados-etapa-txt">
                                 Estabelecimento: KDF Beer<br>
                                 Cidade: Itapetininga<br>
                                 Prato: Crispinho de Mandioca
+                                <h4 class="selecionados-etapa-txt-h4">Finalista!</h4>
                             </p>
                         </div>
                     </div>
@@ -4587,22 +5495,24 @@ O participante declara não empregar menor e não ser servidor público do Estad
                     </div>
                     <!-- background-color: dimgrey; -->
                     <div class="card">
-                        <div class="card-body">
+                        <div class="card-body selecionados-etapa">
                             <h5 class="card-title">Produtor</h5>
                             <p class="selecionados-etapa-txt">
                                 Produtor: Família Rossato<br>
                                 Cidade: Pilar do Sul<br>
                                 Produto: Burrata de Búfala ao Molho de Issamo
+                                <h4 class="selecionados-etapa-txt-h4">Finalista!</h4>
                             </p>
                         </div>
                     </div>
                     <div class="card">
-                        <div class="card-body">
+                        <div class="card-body selecionados-etapa">
                             <h5 class="card-title">Produtor</h5>
                             <p class="selecionados-etapa-txt">
                                 Produtor: Guarapa Gourmet<br>
                                 Cidade: Sorocaba<br>
                                 Produto: Guarapa
+                                <h4 class="selecionados-etapa-txt-h4">Finalista!</h4>
                             </p>
                         </div>
                     </div>
@@ -4625,12 +5535,13 @@ O participante declara não empregar menor e não ser servidor público do Estad
                 <h3 class="selecionados-title">Etapa:<p> Campinas</p></h3>
                 <div class="card-columns">
                     <div class="card">
-                        <div class="card-body">
+                        <div class="card-body selecionados-etapa">
                             <h5 class="card-title">Restaurante</h5>
                             <p class="selecionados-etapa-txt">
                                 Estabelecimento: Casa Bela Restaurante<br>
                                 Cidade: Holambra<br>
                                 Prato: Croquete Holandês
+                                <h4 class="selecionados-etapa-txt-h4">Finalista!</h4>
                             </p>
                         </div>
                     </div>
@@ -4645,12 +5556,13 @@ O participante declara não empregar menor e não ser servidor público do Estad
                         </div>
                     </div>
                     <div class="card">
-                        <div class="card-body">
+                        <div class="card-body selecionados-etapa">
                             <h5 class="card-title">Restaurante</h5>
                             <p class="selecionados-etapa-txt">
                                 Estabelecimento: Da Roça<br>
                                 Cidade: Brotas<br>
                                 Prato: Frangolone
+                                <h4 class="selecionados-etapa-txt-h4">Finalista!</h4>
                             </p>
                         </div>
                     </div>
@@ -4666,23 +5578,25 @@ O participante declara não empregar menor e não ser servidor público do Estad
                     </div>
 
                     <div class="card">
-                        <div class="card-body">
+                        <div class="card-body selecionados-etapa">
                             <h5 class="card-title">Produtor</h5>
                             <p class="selecionados-etapa-txt">
                                 Produtor: Linguiçaria Real Bragança<br>
                                 Cidade: Bragança Paulista<br>
                                 Produto: Linguiça Artesanal Real Bragança
+                                <h4 class="selecionados-etapa-txt-h4">Finalista!</h4>
                             </p>
                         </div>
                     </div>
                     <!-- background-color: dimgrey; -->
                     <div class="card">
-                        <div class="card-body">
+                        <div class="card-body selecionados-etapa">
                             <h5 class="card-title">Produtor</h5>
                             <p class="selecionados-etapa-txt">
                                 Produtor: Sítio Nelson Guerreiro<br>
                                 Cidade: Brotas<br>
                                 Produto: Fubá de Milho no Moinho de Pedra
+                                <h4 class="selecionados-etapa-txt-h4">Finalista!</h4>
                             </p>
                         </div>
                     </div>
@@ -4715,12 +5629,13 @@ O participante declara não empregar menor e não ser servidor público do Estad
                 <h3 class="selecionados-title">Etapa:<p> Taubaté</p></h3>
                 <div class="card-columns">
                     <div class="card">
-                        <div class="card-body">
+                        <div class="card-body selecionados-etapa">
                             <h5 class="card-title">Restaurante</h5>
                             <p class="selecionados-etapa-txt">
                                 Estabelecimento: Dona Chica Restaurante<br>
                                 Cidade: Campos de Jordão<br>
                                 Prato: Paella da Montanha
+                                <h4 class="selecionados-etapa-txt-h4">Finalista!</h4>
                             </p>
                         </div>
                     </div>
@@ -4739,18 +5654,19 @@ O participante declara não empregar menor e não ser servidor público do Estad
                             <h5 class="card-title">Restaurante</h5>
                             <p class="selecionados-etapa-txt">
                                 Estabelecimento: L'Osteria Villa Casato<br>
-                                Cidade: Medalhão Alla Vasdostona<br>
-                                Prato: Campos de Jordão
+                                Cidade: Campos de Jordão<br>
+                                Prato: Medalhão Alla Vasdostona
                             </p>
                         </div>
                     </div>
                     <div class="card">
-                        <div class="card-body">
+                        <div class="card-body selecionados-etapa">
                             <h5 class="card-title">Restaurante</h5>
                             <p class="selecionados-etapa-txt">
                                 Estabelecimento: Paestum Forneria Bar<br>
-                                Cidade: Risotto Afogado<br>
-                                Prato: Guarantinguetá
+                                Cidade: Guarantinguetá<br>
+                                Prato: Risotto Afogado
+                                <h4 class="selecionados-etapa-txt-h4">Finalista!</h4>
                             </p>
                         </div>
                     </div>
@@ -4777,22 +5693,24 @@ O participante declara não empregar menor e não ser servidor público do Estad
                         </div>
                     </div>
                     <div class="card">
-                        <div class="card-body">
+                        <div class="card-body selecionados-etapa">
                             <h5 class="card-title">Produtor</h5>
                             <p class="selecionados-etapa-txt">
                                 Produtor: Sr. Brioche<br>
                                 Cidade: Campos do Jordão<br>
                                 Produto: O Melhor Bolo de Chocolate das Galáxias
+                                <h4 class="selecionados-etapa-txt-h4">Finalista!</h4>
                             </p>
                         </div>
                     </div>
                     <div class="card">
-                        <div class="card-body">
+                        <div class="card-body selecionados-etapa">
                             <h5 class="card-title">Produtor</h5>
                             <p class="selecionados-etapa-txt">
                                 Produtor: Capril da Mantiqueira<br>
                                 Cidade: Monteiro Lobato<br>
                                 Produto: Queijo de Cabra com Doce de Leite de Cabra
+                                <h4 class="selecionados-etapa-txt-h4">Finalista!</h4>
                             </p>
                         </div>
                     </div>
@@ -4805,12 +5723,13 @@ O participante declara não empregar menor e não ser servidor público do Estad
                 <h3 class="selecionados-title">Etapa:<p> Santos</p></h3>
                 <div class="card-columns">
                     <div class="card">
-                        <div class="card-body">
+                        <div class="card-body selecionados-etapa">
                             <h5 class="card-title">Restaurante</h5>
                             <p class="selecionados-etapa-txt">
                                 Estabelecimento: LO. Cal<br>
                                 Cidade: Santos<br>
                                 Prato: Nhoque Caiçara
+                                <h4 class="selecionados-etapa-txt-h4">Finalista!</h4>
                             </p>
                         </div>
                     </div>
@@ -4835,34 +5754,37 @@ O participante declara não empregar menor e não ser servidor público do Estad
                         </div>
                     </div>
                     <div class="card">
-                        <div class="card-body">
+                        <div class="card-body selecionados-etapa">
                             <h5 class="card-title">Restaurante</h5>
                             <p class="selecionados-etapa-txt">
                                 Estabelecimento: Restaurante Escola Estação Bistrô<br>
                                 Cidade: Santos<br>
                                 Prato: Casadinho Caiçara
+                                <h4 class="selecionados-etapa-txt-h4">Finalista!</h4>
                             </p>
                         </div>
                     </div>
 
                     <div class="card">
-                        <div class="card-body">
+                        <div class="card-body selecionados-etapa">
                             <h5 class="card-title">Produtor</h5>
                             <p class="selecionados-etapa-txt">
                                 Produtor: Instituto Auá<br>
                                 Cidade: São Vicente<br>
                                 Produto: Picolé Artesanal de Cambuci
+                                <h4 class="selecionados-etapa-txt-h4">Finalista!</h4>
                             </p>
                         </div>
                     </div>
                     <!-- background-color: dimgrey; -->
                     <div class="card">
-                        <div class="card-body">
+                        <div class="card-body selecionados-etapa">
                             <h5 class="card-title">Produtor</h5>
                             <p class="selecionados-etapa-txt">
                                 Produtor: Sítio Estância da Mata<br>
                                 Cidade: Peruíbe<br>
                                 Produto: Nhoque de Biomassa de Banana Verde
+                                <h4 class="selecionados-etapa-txt-h4">Finalista!</h4>
                             </p>
                         </div>
                     </div>
@@ -4895,12 +5817,13 @@ O participante declara não empregar menor e não ser servidor público do Estad
                 <h3 class="selecionados-title">Etapa:<p> Registro</p></h3>
                 <div class="card-columns">
                     <div class="card">
-                        <div class="card-body">
+                        <div class="card-body selecionados-etapa">
                             <h5 class="card-title">Restaurante</h5>
                             <p class="selecionados-etapa-txt">
                                 Estabelecimento: Restaurante Avenida<br>
                                 Cidade: Iguape<br>
                                 Prato: Embrulhadinho Caiçara
+                                <h4 class="selecionados-etapa-txt-h4">Finalista!</h4>
                             </p>
                         </div>
                     </div>
@@ -4925,34 +5848,37 @@ O participante declara não empregar menor e não ser servidor público do Estad
                         </div>
                     </div>
                     <div class="card">
-                        <div class="card-body">
+                        <div class="card-body selecionados-etapa">
                             <h5 class="card-title">Restaurante</h5>
                             <p class="selecionados-etapa-txt">
                                 Estabelecimento: Jardim Mirim<br>
                                 Cidade: Cananéia<br>
                                 Prato: Pato Raízes e PANCs
+                                <h4 class="selecionados-etapa-txt-h4">Finalista!</h4>
                             </p>
                         </div>
                     </div>
 
                     <div class="card">
-                        <div class="card-body">
+                        <div class="card-body selecionados-etapa">
                             <h5 class="card-title">Produtor</h5>
                             <p class="selecionados-etapa-txt">
                                 Produtor: Defumado Caiçara<br>
                                 Cidade: Cananéia<br>
                                 Produto: Tainha Defumada
+                                <h4 class="selecionados-etapa-txt-h4">Finalista!</h4>
                             </p>
                         </div>
                     </div>
                     <!-- background-color: dimgrey; -->
                     <div class="card">
-                        <div class="card-body">
+                        <div class="card-body selecionados-etapa">
                             <h5 class="card-title">Produtor</h5>
                             <p class="selecionados-etapa-txt">
                                 Produtor: Sabores da Juréia<br>
                                 Cidade: Iguape<br>
                                 Produto: Sorvete de Iorgute Grego de Búfala com Amora
+                                <h4 class="selecionados-etapa-txt-h4">Finalista!</h4>
                             </p>
                         </div>
                     </div>
@@ -5005,33 +5931,36 @@ O participante declara não empregar menor e não ser servidor público do Estad
                         </div>
                     </div>
                     <div class="card">
-                        <div class="card-body">
+                        <div class="card-body selecionados-etapa">
                             <h5 class="card-title">Restaurante</h5>
                             <p class="selecionados-etapa-txt">
                                 Estabelecimento: Comedoria Dona Ana<br>
                                 Cidade: São Paulo<br>
                                 Prato: Fogazza de Vegetais com Queijo
+                                <h4 class="selecionados-etapa-txt-h4">Finalista!</h4>
                             </p>
                         </div>
                     </div>
                     <div class="card">
-                        <div class="card-body">
+                        <div class="card-body selecionados-etapa">
                             <h5 class="card-title">Restaurante</h5>
                             <p class="selecionados-etapa-txt">
                                 Estabelecimento: Bar do Bolinho<br>
                                 Cidade: São Bernado<br>
                                 Prato: Bolinho de Carne do Japonês
+                                <h4 class="selecionados-etapa-txt-h4">Finalista!</h4>
                             </p>
                         </div>
                     </div>
 
                     <div class="card">
-                        <div class="card-body">
+                        <div class="card-body selecionados-etapa">
                             <h5 class="card-title">Produtor</h5>
                             <p class="selecionados-etapa-txt">
                                 Produtor: Vida Natural<br>
                                 Cidade: Mairiporã<br>
                                 Produto: Caponata de Coração de Bananeira
+                                <h4 class="selecionados-etapa-txt-h4">Finalista!</h4>
                             </p>
                         </div>
                     </div>
@@ -5040,7 +5969,7 @@ O participante declara não empregar menor e não ser servidor público do Estad
                         <div class="card-body">
                             <h5 class="card-title">Produtor</h5>
                             <p class="selecionados-etapa-txt">
-                                Produtor: A Chef.Cozinha<br>
+                                Produtor: A Chef Cozinheira<br>
                                 Cidade: São Paulo<br>
                                 Produto: Cuscuz Vegetariano
                             </p>
@@ -5057,12 +5986,13 @@ O participante declara não empregar menor e não ser servidor público do Estad
                         </div>
                     </div>
                     <div class="card">
-                        <div class="card-body">
+                        <div class="card-body selecionados-etapa">
                             <h5 class="card-title">Produtor</h5>
                             <p class="selecionados-etapa-txt">
                                 Produtor: Famiglia Barberini<br>
                                 Cidade: Santo André<br>
                                 Produto: Ravioli de Cordeiro
+                                <h4 class="selecionados-etapa-txt-h4">Finalista!</h4>
                             </p>
                         </div>
                     </div>
@@ -5130,12 +6060,138 @@ O participante declara não empregar menor e não ser servidor público do Estad
 
     <!-- Footer -->
     <footer>
+        <div class="row txt-rodape">
+            <h4>Um evento</h4>
+        </div>
+        <div class="rodape-logos row">
+            <div class="logos-rodape col-12">
+                <a href="http://spgastronomia.sp.gov.br/" target="_blank">
+                    <img src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/Logo-SP-Gastronomia-cor.png" class="logos-img img-miniatura" alt="...">
+                </a>
+            </div>
+        </div>
+        <div class="row txt-rodape">
+            <h4>Confira outros eventos do programa:</h4>
+        </div>
+        <div class="rodape-logos row">
+            <div class="logos-rodape col-12">
+                <a href="http://feitoemsp.com.br/" target="_blank">
+                    <img src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/09/logo_feito_em_saopaulo_cor.png" class="logos-img img-miniatura" alt="...">
+                </a>
+            </div>
+            <div class="logos-rodape col-12">
+                <a href="http://farofadobrasil.com.br/" target="_blank">
+                    <img src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/02/farofa-logo-e1549028398854.png" class="logos-img img-miniatura" alt="...">
+                </a>
+            </div>
+            <div class="logos-rodape col-12">
+                <a href="https://prazeresdamesa.uol.com.br/mundo-mesa/eventos/mesasp/sp-cultura-de-boteco/" target="_blank">
+                    <img src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/spCulturaDeBoteco-1.png" class="logos-img img-miniatura" alt="...">
+                </a>
+            </div>
+            <div class="logos-rodape col-12">
+                <a href="https://www.bocusedor.com/" target="_blank">
+                    <img src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/bocuse-dor.png" class="logos-img img-miniatura" alt="...">
+                </a>
+            </div>
+            <div class="logos-rodape col-12">
+                <a href="https://prazeresdamesa.uol.com.br/mundo-mesa/eventos/mesasp/" target="_blank">
+                    <img src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/07/Mesa-SP-2018_preto2.png" class="logos-img img-miniatura" alt="...">
+                </a>
+            </div>
+        </div>
+        <div class="row txt-rodape">
+            <h4>Patrocínio</h4>
+        </div>
+        <div class="rodape-logos row">
+            <div class="logos-rodape col-12">
+                <img src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/logo-7.png" class="logos-img img-miniatura" alt="...">
+            </div>
+            <div class="logos-rodape col-12">
+                <img src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/logo-3.png" class="logos-img img-miniatura" alt="...">
+            </div>
+            <!-- <div class="logos-rodape col-12">
+                <img src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/logo-12.png" class="logos-img img-miniatura" alt="...">
+            </div> -->
+            <div class="logos-rodape col-12">
+                <img src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/logo-6.png" class="logos-img img-miniatura" alt="...">
+            </div>
+            <div class="logos-rodape col-12">
+                <img src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/logo-13.png" class="logos-img img-miniatura" alt="...">
+            </div>
+        </div>
+        <div class="rodape-logos row">
+            <div class="logos-rodape col-12">
+                <img src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/logo-11.png" class="logos-img img-miniatura" alt="...">
+            </div>
+            <div class="logos-rodape col-12">
+                <img src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/logo-14.png" class="logos-img img-miniatura" alt="...">
+            </div>
+            <div class="logos-rodape col-12">
+                <img src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/logo-15.png" class="logos-img img-miniatura" alt="...">
+            </div>
+            <div class="logos-rodape col-12">
+                <img src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/logo1-1.png" class="logos-img img-miniatura" alt="...">
+            </div>
+            <div class="logos-rodape col-12">
+                <img src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/logo-16.png" class="logos-img img-miniatura" alt="...">
+            </div>
+        </div>
+        <div class="row txt-rodape">
+            <h4>Apoio de mídia</h4>
+        </div>
+        <div class="rodape-logos row">
+            <div class="logos-rodape col-12">
+                <img src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/logo2-1.png" class="logos-img1 img-miniatura" alt="...">
+            </div>
+            <div class="logos-rodape col-12">
+                <img src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/logo3-1.png" class="logos-img1 img-miniatura" alt="...">
+            </div>
+            <div class="logos-rodape col-12">
+                <img src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/logo4-1.png" class="logos-img1 img-miniatura" alt="...">
+            </div>
+            <div class="logos-rodape col-12">
+                <img src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/logo5-1.png" class="logos-img1 img-miniatura" alt="...">
+            </div>
+        </div>
+        <div class="rodape-logos row">
+            <div class="logos-rodape col-12">
+                <img src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/logo6-1.png" class="logos-img1 img-miniatura" alt="...">
+            </div>
+            <div class="logos-rodape col-12">
+                <img src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/logo7-1.png" class="logos-img1 img-miniatura" alt="...">
+            </div>
+            <div class="logos-rodape col-12">
+                <img src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/logo8-1.png" class="logos-img1 img-miniatura" alt="...">
+            </div>
+        </div>
+        <div class="row txt-rodape">
+            <h4>Realização</h4>
+        </div>
+        <div class="rodape-logos row">
+            <div class="logos-rodape col-12">
+                <img src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/logo-2.jpg" class="logos-img1 img-miniatura" alt="...">
+            </div>
+            <div class="logos-rodape col-12">
+                <img src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/logo-4.png" class="logos-img img-miniatura" alt="...">
+            </div>
+            <div class="logos-rodape col-12">
+                <img src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/logo-17.png" class="logos-img img-miniatura" alt="...">
+            </div>
+            <div class="logos-rodape col-12">
+                <img src="https://prazeresdamesa.uol.com.br/wp-content/uploads/2019/10/logo-8.png" class="logos-img4 img-miniatura" alt="...">
+            </div>
+        </div>
+        <div class="row txt-aviso">
+            <p>Se beber não dirija</p>
+        </div>
         <div class="assinatura">
             <p>
                 © Copyright 2019, Prazeres da Mesa - Todos os direitos reservados - Desenvolvido por: Prazeres da Mesa
             </p>
         </div>
     </footer>
+
 </body>
 <script>
 $(function () {

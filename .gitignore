@@ -1,6 +1,6 @@
 # Don't track content of these folders
 node_modules/
-public/
+deploy-5d8c3a46541e64aa3deb4354/
 someOtherfoler/
 
 

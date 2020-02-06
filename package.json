@@ -11,8 +11,9 @@
     "tinypng-webpack-plugin": "^2.0.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.6.0",
-    "@babel/core": "^7.6.0",
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "babel-loader": "^8.0.6",
     "autoprefixer": "^9.6.1",
     "cross-env": "5.1.5",
     "css-loader": "^3.2.0",
