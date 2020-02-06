@@ -43,7 +43,7 @@ module.exports = {
             //     "use": "eslint-loader"
             // },
             {
-            test: /\.s?[ac]ss$/,
+            test: /\.css$/,
             use: [
                 modoDev ? 'style-loader' : MiniCssExtractPlugin.loader,
                 // MiniCssExtractPlugin.loader,
