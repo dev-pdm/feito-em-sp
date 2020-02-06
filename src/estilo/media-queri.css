@@ -180,6 +180,7 @@
 
     .card-deck a.btn-primary {
         font-size: 0.8rem !important;
+<<<<<<< HEAD
     }
 
     .selecionados-title p{
@@ -188,6 +189,8 @@
 
     .selecionados-title{
         font-size: 1.5rem !important;
+=======
+>>>>>>> 3288a2763901b63097291d852aa24141847e721c
     }
 }
 

@@ -92,6 +92,10 @@ label .placeholder
 
 html {
     scroll-behavior: smooth;
+<<<<<<< HEAD
+=======
+    /* overflow-y: scroll; */
+>>>>>>> 3288a2763901b63097291d852aa24141847e721c
 }
 
 body {
@@ -258,6 +262,7 @@ body {
     line-height: 15px;
 }
 
+<<<<<<< HEAD
 .titulo-galeria-selecionados{
     padding: 10px;
     font-family: GothamBook, sans-serif;
@@ -268,6 +273,9 @@ body {
     margin: 10px;
     text-shadow: 5px 5px 5px #000000;
 }
+=======
+
+>>>>>>> 3288a2763901b63097291d852aa24141847e721c
 /* Fim Home */
 
 /* Estilo circuito */
@@ -366,6 +374,35 @@ thead{
     font-size: 1.7rem;
 }
 
+<<<<<<< HEAD
+=======
+th a {
+    color: #000000 !important;
+    text-decoration: none;
+    padding-left: 5px;
+    font-size: 1rem;
+}
+
+td a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #ffffff !important;
+    font-size: 1rem;
+}
+
+th a:hover {
+    text-decoration: none;
+    color: #f2f2f2 !important;
+    font-weight: 700;
+}
+
+td a:hover {
+    text-decoration: none;
+    color: #f2f2f2 !important;
+    font-weight: 700;
+}
+
+>>>>>>> 3288a2763901b63097291d852aa24141847e721c
 .name-regioes {
     font-family: GothamBook, sans-serif;
     font-size: 1.3rem;
@@ -677,6 +714,15 @@ thead{
     padding: 2% 12% 2% 7%;
 }
 
+<<<<<<< HEAD
+=======
+.box-macros {
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 2% 12% 2% 7%;
+}
+
+>>>>>>> 3288a2763901b63097291d852aa24141847e721c
 .box-circuito p, .box-macros {
     font-family: GothamBook,sans-serif;
     color: #fff;
@@ -690,6 +736,10 @@ thead{
     font-size: 1.8rem;
     font-weight: 700;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3288a2763901b63097291d852aa24141847e721c
 /* Fim circuito */
 
 /* Estilo Shows */
@@ -753,6 +803,20 @@ thead{
     background-color: #000000cc;
 }
 
+<<<<<<< HEAD
+=======
+.box-shows .box-programação{
+    /* max-width: 530px; */
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    padding: 2% 12% 2% 12%;
+    background-color: #000000cc;
+}
+
+>>>>>>> 3288a2763901b63097291d852aa24141847e721c
 .box-shows .box-programação h3{
     font-family: GothamBook, sans-serif;
     font-size: 1.3rem;
@@ -761,6 +825,7 @@ thead{
     color: #ffffff;
 }
 
+<<<<<<< HEAD
 .btn-prog-feira-literaria{
     margin: 0 auto;
     display: block;
@@ -782,6 +847,8 @@ thead{
     color: #000000;
     border-color: #000000;
 }
+=======
+>>>>>>> 3288a2763901b63097291d852aa24141847e721c
 /* Fim Shows */
 
 .masterclass {
@@ -919,9 +986,19 @@ p.card-text {
     text-align: center;
     font-weight: 700;
     color: #ffffff;
+<<<<<<< HEAD
     width: 100%;
     display: block;
     margin: 0 auto;
+=======
+    /* max-width: 530px; */
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    padding: 2% 12% 2% 12%;
+>>>>>>> 3288a2763901b63097291d852aa24141847e721c
     background-color: #000000cc;
 }
 
@@ -979,6 +1056,7 @@ p.card-text {
     font-weight: 700;
     color: #ffffff;
     margin-top: 25px;
+<<<<<<< HEAD
     display: flex;
 }
 
@@ -986,6 +1064,8 @@ p.card-text {
     font-size: 2.2rem;
     font-weight: 900;
     color: #698f5b;
+=======
+>>>>>>> 3288a2763901b63097291d852aa24141847e721c
 }
 
 .selecionados-etapa-txt{
@@ -995,6 +1075,7 @@ p.card-text {
     color: #ffffff;
 }
 
+<<<<<<< HEAD
 .selecionados-etapa-txt-h4{
     font-size: 2rem;
     text-align: center;
@@ -1008,6 +1089,8 @@ p.card-text {
 }
 
 
+=======
+>>>>>>> 3288a2763901b63097291d852aa24141847e721c
 /* Fim selecionados */
 
 /* Estilo workshops */
@@ -1079,6 +1162,10 @@ p.card-text {
     margin: 0 auto;
     color: #000000;
     font-weight: 700;
+<<<<<<< HEAD
+=======
+    /* border: 1px solid #f2f2f2; */
+>>>>>>> 3288a2763901b63097291d852aa24141847e721c
 }
 
 .workshops form label {
@@ -1256,6 +1343,10 @@ div.row.forms {
 
 .custom-file-label::after {
     content: "Anexar foto";
+<<<<<<< HEAD
+=======
+    /* -webkit-text-fill-color: #ffffff; */
+>>>>>>> 3288a2763901b63097291d852aa24141847e721c
     color: #ffffff;
     background-color: #000000;
 }
@@ -1464,6 +1555,12 @@ input[type=email]::-moz-placeholder {
     color: #000000;
     font-weight: 500;
     padding: 1%;
+<<<<<<< HEAD
+=======
+    font-size: 15px;
+    color: #000000;
+    font-weight: 500;
+>>>>>>> 3288a2763901b63097291d852aa24141847e721c
 }
 
 .modal-footer button a {

@@ -185,7 +185,10 @@ let crono = setInterval(function() {
     // + minutos + "m ";
     
     if (distance < 0) {
+<<<<<<< HEAD
         
+=======
+>>>>>>> 3288a2763901b63097291d852aa24141847e721c
     clearInterval(crono);
     document.getElementById("cronometrozero").innerHTML = "Inscrições encerrada para sua Macrorregião";
     }
@@ -283,8 +286,13 @@ let crono6 = setInterval(function() {
     let horas6 = Math.floor((distance6 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     let minutos6 = Math.floor((distance6 % (1000 * 60 * 60)) / (1000 * 60));
     
+<<<<<<< HEAD
     // document.getElementById("cronometro6").innerHTML = dias6 + "d " + horas6 + "h "
     // + minutos6 + "m ";
+=======
+    document.getElementById("cronometro6").innerHTML = dias6 + "d " + horas6 + "h "
+    + minutos6 + "m ";
+>>>>>>> 3288a2763901b63097291d852aa24141847e721c
     
     if (distance6 < 0) {
     clearInterval(crono6);
@@ -303,8 +311,13 @@ let crono7 = setInterval(function() {
     let horas7 = Math.floor((distance7 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     let minutos7 = Math.floor((distance7 % (1000 * 60 * 60)) / (1000 * 60));
     
+<<<<<<< HEAD
     // document.getElementById("cronometro7").innerHTML = dias7 + "d " + horas7 + "h "
     // + minutos7 + "m ";
+=======
+    document.getElementById("cronometro7").innerHTML = dias7 + "d " + horas7 + "h "
+    + minutos7 + "m ";
+>>>>>>> 3288a2763901b63097291d852aa24141847e721c
     
     if (distance7 < 0) {
     clearInterval(crono7);
@@ -323,8 +336,13 @@ let crono8 = setInterval(function() {
     let horas8 = Math.floor((distance8 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     let minutos8 = Math.floor((distance8 % (1000 * 60 * 60)) / (1000 * 60));
     
+<<<<<<< HEAD
     // document.getElementById("cronometro8").innerHTML = dias8 + "d " + horas8 + "h "
     // + minutos8 + "m ";
+=======
+    document.getElementById("cronometro8").innerHTML = dias8 + "d " + horas8 + "h "
+    + minutos8 + "m ";
+>>>>>>> 3288a2763901b63097291d852aa24141847e721c
     
     if (distance8 < 0) {
     clearInterval(crono8);
@@ -363,8 +381,13 @@ let crono10 = setInterval(function() {
     let horas10 = Math.floor((distance10 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     let minutos10 = Math.floor((distance10 % (1000 * 60 * 60)) / (1000 * 60));
     
+<<<<<<< HEAD
     // document.getElementById("cronometro10").innerHTML = dias10 + "d " + horas10 + "h "
     // + minutos10 + "m ";
+=======
+    document.getElementById("cronometro10").innerHTML = dias10 + "d " + horas10 + "h "
+    + minutos10 + "m ";
+>>>>>>> 3288a2763901b63097291d852aa24141847e721c
 
     if (distance10 < 0) {
     clearInterval(crono10);
@@ -383,8 +406,13 @@ let crono11 = setInterval(function() {
     let horas11 = Math.floor((distance11 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     let minutos11 = Math.floor((distance11 % (1000 * 60 * 60)) / (1000 * 60));
     
+<<<<<<< HEAD
     // document.getElementById("cronometro11").innerHTML = dias11 + "d " + horas11 + "h "
     // + minutos11 + "m ";
+=======
+    document.getElementById("cronometro11").innerHTML = dias11 + "d " + horas11 + "h "
+    + minutos11 + "m ";
+>>>>>>> 3288a2763901b63097291d852aa24141847e721c
     
     if (distance11 < 0) {
     clearInterval(crono11);
@@ -403,8 +431,13 @@ let crono12 = setInterval(function() {
     let horas12 = Math.floor((distance12 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     let minutos12 = Math.floor((distance12 % (1000 * 60 * 60)) / (1000 * 60));
     
+<<<<<<< HEAD
     // document.getElementById("cronometro12").innerHTML = dias12 + "d " + horas12 + "h "
     // + minutos12 + "m ";
+=======
+    document.getElementById("cronometro12").innerHTML = dias12 + "d " + horas12 + "h "
+    + minutos12 + "m ";
+>>>>>>> 3288a2763901b63097291d852aa24141847e721c
     
     if (distance12 < 0) {
     clearInterval(crono12);
@@ -423,8 +456,13 @@ let crono13 = setInterval(function() {
     let horas13 = Math.floor((distance13 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     let minutos13 = Math.floor((distance13 % (1000 * 60 * 60)) / (1000 * 60));
     
+<<<<<<< HEAD
     // document.getElementById("cronometro13").innerHTML = dias13 + "d " + horas13 + "h "
     // + minutos13 + "m ";
+=======
+    document.getElementById("cronometro13").innerHTML = dias13 + "d " + horas13 + "h "
+    + minutos13 + "m ";
+>>>>>>> 3288a2763901b63097291d852aa24141847e721c
     
     if (distance13 < 0) {
     clearInterval(crono13);
@@ -443,8 +481,13 @@ let crono14 = setInterval(function() {
     let horas14 = Math.floor((distance14 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     let minutos14 = Math.floor((distance14 % (1000 * 60 * 60)) / (1000 * 60));
     
+<<<<<<< HEAD
     // document.getElementById("cronometro14").innerHTML = dias14 + "d " + horas14 + "h "
     // + minutos14 + "m ";
+=======
+    document.getElementById("cronometro14").innerHTML = dias14 + "d " + horas14 + "h "
+    + minutos14 + "m ";
+>>>>>>> 3288a2763901b63097291d852aa24141847e721c
     
     if (distance14 < 0) {
     clearInterval(crono14);
@@ -463,8 +506,13 @@ let crono15 = setInterval(function() {
     let horas15 = Math.floor((distance15 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     let minutos15 = Math.floor((distance15 % (1000 * 60 * 60)) / (1000 * 60));
     
+<<<<<<< HEAD
     // document.getElementById("cronometro15").innerHTML = dias15 + "d " + horas15 + "h "
     // + minutos15 + "m ";
+=======
+    document.getElementById("cronometro15").innerHTML = dias15 + "d " + horas15 + "h "
+    + minutos15 + "m ";
+>>>>>>> 3288a2763901b63097291d852aa24141847e721c
     
     if (distance15 < 0) {
     clearInterval(crono15);
